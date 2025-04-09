@@ -16,7 +16,7 @@ subtitle                 : ""
 name                     : "Yash Bhoomkar"
 description              : "A blog where I share intriguing tech projects, ideas, and experiments — from software to hardware."
 url                      : "https://yashbhoomkar.github.io"
-baseurl                  : ""
+baseurl                  : "https://yashbhoomkar.github.io/runtimepages/"
 repository               : yashbhoomkar/runtimepages
 teaser                   : "/assets/images/teaser.jpg"
 logo                     : "/assets/images/logo.png"
