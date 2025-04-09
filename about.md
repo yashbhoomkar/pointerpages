@@ -3,12 +3,21 @@ layout: single
 title: "About"
 permalink: /about/
 ---
-> A personal collection of insights and lessons I have gained throughout my academic journey.
 
+> A space to share my journey through tech, projects, and ideas worth spreading.
 
-Hello ! I am *Avani*, a curious ~~Information Technology~~ student with a keen interest in fascinating tech concepts. My plan is to upload all the interesting things I discover here, including my projects, explanations of various concepts, and helpful installation guides. I’m also looking to collaborate on open-source projects, so feel free to connect with me!
+Hi! I'm **Yash Bhoomkar**, an engineering student at Pune Institute of Computer Technology, currently pursuing a Bachelor's degree in Computer Science with a Minor in Data Science from IIT Madras.
 
+My interests lie in exploring generative AI, system design, full-stack development, and building tools that solve real-world problems. From working on intelligent unit test case generators during my internship at **Capgemini GenAI**, to creating AI-driven marketing products and ML-powered sentiment analyzers — I’ve found joy in blending creativity with code.
 
-I invite you to dive into a vibrant collection of the most intriguing tech projects, ideas, and experiments from the world of software development and beyond. This blog is a sandbox for the ***curious and creative*** — whether you’re a developer seeking inspiration, a tech enthusiast exploring trends, or just someone fascinated by the intersection of code and creativity.
+This blog serves as my digital journal where I publish thoughts, lessons, and side-projects on topics that fascinate me. You’ll find:
+- 👨‍💻 Deep dives into tech projects and ideas
+- 🧠 Explanations of complex concepts made simple
+- 🚀 Tutorials, tips, and quick installation guides
+- 📚 Notes from personal study sessions and courses
+- 🤝 Opportunities for collaboration
 
-Thank you for visiting my website.
+I’m always open to new ideas, contributions, and connecting with like-minded enthusiasts. If you’re into tech, open-source, or just curious — let’s chat!
+
+Thanks for stopping by!  
+— **Yash**

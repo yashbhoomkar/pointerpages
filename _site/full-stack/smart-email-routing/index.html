@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en-US" class="no-js">
+  <head>
+    <meta charset="utf-8">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+<!-- Optional: Add other formats for modern browsers -->
+<link rel="icon" type="image/png" href="/assets/images/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png" />
+<link rel="manifest" href="/assets/images/site.webmanifest" />
+<!-- begin _includes/seo.html --><title>Smart Email Routing: Automating Inbox Management with Gmail API and LLaMA - Pointer Pages</title>
+<meta name="description" content="In the age of overflowing inboxes, email triaging can become a real pain—especially when you're part of a fast-moving organization. Manually sorting and forwarding emails can waste hours every week. I decided to automate this task by building a Smart Email Routing System using the Gmail API and the LLaMA 3.2 model from Ollama.">
+
+
+  <meta name="author" content="Yash Bhoomkar">
+  
+  <meta property="article:author" content="Yash Bhoomkar">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Pointer Pages">
+<meta property="og:title" content="Smart Email Routing: Automating Inbox Management with Gmail API and LLaMA">
+<meta property="og:url" content="http://localhost:4000/automation/smart-email-routing/">
+
+
+  <meta property="og:description" content="In the age of overflowing inboxes, email triaging can become a real pain—especially when you're part of a fast-moving organization. Manually sorting and forwarding emails can waste hours every week. I decided to automate this task by building a Smart Email Routing System using the Gmail API and the LLaMA 3.2 model from Ollama.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2024-06-18T10:15:30+05:30">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/automation/smart-email-routing/">
+
+
+
+
+
+
+
+  <meta name="google-site-verification" content="google7497e540fd5955de" />
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Pointer Pages Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  window.enable_copy_code_button = true;
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Smart Email Routing: Automating Inbox Management with Gmail API and LLaMA | Pointer Pages</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Smart Email Routing: Automating Inbox Management with Gmail API and LLaMA" />
+<meta name="author" content="Yash Bhoomkar" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="In the age of overflowing inboxes, email triaging can become a real pain—especially when you're part of a fast-moving organization. Manually sorting and forwarding emails can waste hours every week. I decided to automate this task by building a Smart Email Routing System using the Gmail API and the LLaMA 3.2 model from Ollama." />
+<meta property="og:description" content="In the age of overflowing inboxes, email triaging can become a real pain—especially when you're part of a fast-moving organization. Manually sorting and forwarding emails can waste hours every week. I decided to automate this task by building a Smart Email Routing System using the Gmail API and the LLaMA 3.2 model from Ollama." />
+<link rel="canonical" href="http://localhost:4000/automation/smart-email-routing/" />
+<meta property="og:url" content="http://localhost:4000/automation/smart-email-routing/" />
+<meta property="og:site_name" content="Pointer Pages" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-06-18T10:15:30+05:30" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Smart Email Routing: Automating Inbox Management with Gmail API and LLaMA" />
+<meta name="twitter:site" content="@" />
+<meta name="twitter:creator" content="@Yash Bhoomkar" />
+<meta name="google-site-verification" content="google7497e540fd5955de" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Yash Bhoomkar"},"dateModified":"2024-06-18T10:15:30+05:30","datePublished":"2024-06-18T10:15:30+05:30","description":"In the age of overflowing inboxes, email triaging can become a real pain—especially when you're part of a fast-moving organization. Manually sorting and forwarding emails can waste hours every week. I decided to automate this task by building a Smart Email Routing System using the Gmail API and the LLaMA 3.2 model from Ollama.","headline":"Smart Email Routing: Automating Inbox Management with Gmail API and LLaMA","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/automation/smart-email-routing/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"Yash Bhoomkar"},"url":"http://localhost:4000/automation/smart-email-routing/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/logo.png" alt="Pointer Pages"></a>
+        
+        <a class="site-title" href="/">
+          Pointer Pages
+          <span class="site-subtitle"></span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/about/"
+                
+                
+              >About</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/data-structures/"
+                
+                
+              >DSA</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/networking/"
+                
+                
+              >Networks</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/operating-systems/"
+                
+                
+              >OS</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/full-stack/"
+                
+                
+              >Full Stack </a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/tech-views/"
+                
+                
+              >Tech Views</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/miscellaneous/"
+                
+                
+              >Misc</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/comment-policy/"
+                
+                
+              >Comment Policy</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+           
+
+
+
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    
+    
+    
+      
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/" itemprop="item"><span itemprop="name">Home</span></a>
+
+          <meta itemprop="position" content="1" />
+        </li>
+        <span class="sep">/</span>
+      
+      
+        
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/automation" itemprop="item"><span itemprop="name">Automation</span></a>
+          <meta itemprop="position" content="2" />
+        </li>
+        <span class="sep">/</span>
+      
+    
+      
+      
+        <li class="current">Smart Email Routing: Automating Inbox Management with Gmail API and LLaMA</li>
+      
+    
+  </ol>
+</nav>
+  
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/avatar.jpg" alt="Yash Bhoomkar" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Yash Bhoomkar</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Hello, this is my tech journal. Looking forward to collaborating on open-source projects!</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name" class="p-locality">Pune, India</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="mailto:yashbhoomkar.work@gmail.com" rel="nofollow noopener noreferrer me"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/yashbhoomkar" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/yashbhoomkar" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:bhoomkar04@gmail.com" rel="me" class="u-email">
+            <meta itemprop="email" content="bhoomkar04@gmail.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span>
+          </a>
+        </li>
+
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article
+    class="page"
+    itemscope
+    itemtype="https://schema.org/CreativeWork"
+    
+  >
+    <meta
+      itemprop="headline"
+      content="Smart Email Routing: Automating Inbox Management with Gmail API and LLaMA"
+    /> <meta
+      itemprop="description"
+      content="In the age of overflowing inboxes, email triaging can become a real pain—especially when you're part of a fast-moving organization. Manually sorting and forwarding emails can waste hours every week. I decided to automate this task by building a Smart Email Routing System using the Gmail API and the LLaMA 3.2 model from Ollama."
+    /> <meta
+      itemprop="datePublished"
+      content="2024-06-18T10:15:30+05:30"
+    /> 
+
+    <div class="page__inner-wrap">
+      
+      <header>
+        <h1 id="page-title" class="page__title" itemprop="headline">
+          <a href="http://localhost:4000/automation/smart-email-routing/" itemprop="url"
+            ><p>Smart Email Routing: Automating Inbox Management with Gmail API and LLaMA</p>
+</a
+          >
+        </h1> 
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-06-18T10:15:30+05:30">June 18, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+    
+  </p>
+
+
+      </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <aside class="sidebar__right ">
+          <nav class="toc">
+            <header>
+              <h4 class="nav__title">
+                <i class="fas fa-file-alt"></i>
+                On this page
+              </h4>
+            </header>
+            <ul class="toc__menu">
+              <li><a href="#introduction">Introduction</a></li>
+              <li><a href="#how-it-works">How It Works</a>
+                <ul>
+                  <li><a href="#1-fetch-emails-using-gmail-api">1. Fetch Emails using Gmail API</a></li>
+                  <li><a href="#2-pass-email-to-llama-32-via-ollama">2. Pass Email to LLaMA 3.2 via Ollama</a></li>
+                  <li><a href="#3-parse-the-response">3. Parse the Response</a></li>
+                  <li><a href="#4-route-and-tag-the-email">4. Route and Tag the Email</a></li>
+                </ul>
+              </li>
+              <li><a href="#implementation-code">Implementation Code</a></li>
+              <li><a href="#sample-prompt-sent-to-llama">Sample Prompt Sent to LLaMA</a></li>
+              <li><a href="#why-not-just-rule-based-filters">Why Not Just Rule-Based Filters?</a></li>
+              <li><a href="#final-thoughts">Final Thoughts</a></li>
+            </ul>
+          </nav>
+        </aside>
+         
+<h2 id="introduction">Introduction</h2>
+
+<p>In the age of overflowing inboxes, email triaging can become a real pain—especially when you're part of a fast-moving organization. Manually sorting and forwarding emails can waste hours every week. I decided to automate this task by building a <strong>Smart Email Routing System</strong> using the <strong>Gmail API</strong> and the <strong>LLaMA 3.2 model from Ollama</strong>.</p>
+
+<p>The goal?<br />  
+Build a GenAI-powered bot that can:</p>
+<ul>
+  <li>Read incoming emails.</li>
+  <li>Understand their context using LLaMA.</li>
+  <li>Decide <strong>who</strong> the email should go to.</li>
+  <li>Determine <strong>how urgent</strong> it is.</li>
+  <li>Route it intelligently—no human involved.</li>
+</ul>
+
+<p>Let's walk through how this system works.</p>
+
+<h2 id="how-it-works">How It Works</h2>
+
+<p>The architecture is pretty straightforward, but very powerful. Here's the breakdown:</p>
+
+<h3 id="1-fetch-emails-using-gmail-api">📨 1. Fetch Emails using Gmail API</h3>
+<p>Using OAuth 2.0 and the <code>google-api-python-client</code>, the system:</p>
+<ul>
+  <li>Authenticates securely using a <code>token.json</code>.</li>
+  <li>Connects to the Gmail inbox.</li>
+  <li>Fetches all <strong>unread</strong> emails from the <code>INBOX</code>.</li>
+  <li>Extracts the subject, sender, and message body (MIME decoded).</li>
+</ul>
+
+<h3 id="2-pass-email-to-llama-32-via-ollama">🧠 2. Pass Email to LLaMA 3.2 via Ollama</h3>
+<p>Once the email is fetched:</p>
+<ul>
+  <li>We combine the subject + body into a prompt.</li>
+  <li>Send it to a <strong>locally running LLaMA 3.2 model via Ollama CLI</strong>.</li>
+  <li>The prompt asks LLaMA to return:
+    <ul>
+      <li><code>To whom should this email be routed?</code></li>
+      <li><code>What is the severity level?</code> (Low / Medium / High / Urgent)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="3-parse-the-response">🧾 3. Parse the Response</h3>
+<p>The model returns a JSON-like output such as:</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"route_to"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Legal Team"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"severity"</span><span class="p">:</span><span class="w"> </span><span class="s2">"High"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>This output is parsed and used in the next step.</p>
+
+<h3 id="4-route-and-tag-the-email">🏷️ 4. Route and Tag the Email</h3>
+<p>Based on the model's output:</p>
+<ul>
+  <li>Apply appropriate Gmail labels (e.g., <code>to_legal</code>, <code>severity_high</code>)</li>
+  <li>Optionally forward the email to the correct department</li>
+  <li>Archive or move it as needed</li>
+</ul>
+
+<h2 id="implementation-code">Implementation Code</h2>
+
+<p>Here's the full implementation for this project:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="n">os</span>
+<span class="k">import</span> <span class="n">base64</span>
+<span class="k">import</span> <span class="n">json</span>
+<span class="k">import</span> <span class="n">email</span>
+<span class="k">from</span> <span class="n">email</span><span class="p">.</span><span class="n">mime</span><span class="p">.</span><span class="n">text</span> <span class="k">import</span> <span class="n">MIMEText</span>
+<span class="k">from</span> <span class="n">googleapiclient</span><span class="p">.</span><span class="n">discovery</span> <span class="k">import</span> <span class="n">build</span>
+<span class="k">from</span> <span class="n">google_auth_oauthlib</span><span class="p">.</span><span class="n">flow</span> <span class="k">import</span> <span class="n">InstalledAppFlow</span>
+<span class="k">from</span> <span class="n">google</span><span class="p">.</span><span class="n">auth</span><span class="p">.</span><span class="n">transport</span><span class="p">.</span><span class="n">requests</span> <span class="k">import</span> <span class="n">Request</span>
+<span class="k">from</span> <span class="n">google</span><span class="p">.</span><span class="n">oauth2</span><span class="p">.</span><span class="n">credentials</span> <span class="k">import</span> <span class="n">Credentials</span>
+<span class="k">import</span> <span class="n">subprocess</span>
+
+<span class="c1"># Define the scopes needed for Gmail API
+</span><span class="n">SCOPES</span> <span class="o">=</span> <span class="p">[</span><span class="s">'https://www.googleapis.com/auth/gmail.modify'</span><span class="p">]</span>
+
+<span class="k">def</span> <span class="nf">authenticate_gmail</span><span class="p">():</span>
+    <span class="s">"""
+    Authenticate with Gmail API using OAuth2
+    """</span>
+    <span class="n">creds</span> <span class="o">=</span> <span class="bp">None</span>
+    <span class="k">if</span> <span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">exists</span><span class="p">(</span><span class="s">'token.json'</span><span class="p">):</span>
+        <span class="n">creds</span> <span class="o">=</span> <span class="n">Credentials</span><span class="p">.</span><span class="n">from_authorized_user_info</span><span class="p">(</span><span class="n">json</span><span class="p">.</span><span class="n">load</span><span class="p">(</span><span class="nb">open</span><span class="p">(</span><span class="s">'token.json'</span><span class="p">)))</span>
+    
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">creds</span> <span class="ow">or</span> <span class="ow">not</span> <span class="n">creds</span><span class="p">.</span><span class="n">valid</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">creds</span> <span class="ow">and</span> <span class="n">creds</span><span class="p">.</span><span class="n">expired</span> <span class="ow">and</span> <span class="n">creds</span><span class="p">.</span><span class="n">refresh_token</span><span class="p">:</span>
+            <span class="n">creds</span><span class="p">.</span><span class="n">refresh</span><span class="p">(</span><span class="n">Request</span><span class="p">())</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">flow</span> <span class="o">=</span> <span class="n">InstalledAppFlow</span><span class="p">.</span><span class="n">from_client_secrets_file</span><span class="p">(</span>
+                <span class="s">'credentials.json'</span><span class="p">,</span> <span class="n">SCOPES</span><span class="p">)</span>
+            <span class="n">creds</span> <span class="o">=</span> <span class="n">flow</span><span class="p">.</span><span class="n">run_local_server</span><span class="p">(</span><span class="n">port</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+        
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s">'token.json'</span><span class="p">,</span> <span class="s">'w'</span><span class="p">)</span> <span class="k">as</span> <span class="n">token</span><span class="p">:</span>
+            <span class="n">token</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">creds</span><span class="p">.</span><span class="n">to_json</span><span class="p">())</span>
+    
+    <span class="k">return</span> <span class="n">build</span><span class="p">(</span><span class="s">'gmail'</span><span class="p">,</span> <span class="s">'v1'</span><span class="p">,</span> <span class="n">credentials</span><span class="o">=</span><span class="n">creds</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">get_email_content</span><span class="p">(</span><span class="n">service</span><span class="p">,</span> <span class="n">msg_id</span><span class="p">):</span>
+    <span class="s">"""
+    Extract email content from message ID
+    """</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="n">service</span><span class="p">.</span><span class="n">users</span><span class="p">().</span><span class="n">messages</span><span class="p">().</span><span class="n">get</span><span class="p">(</span><span class="n">userId</span><span class="o">=</span><span class="s">'me'</span><span class="p">,</span> <span class="nb">id</span><span class="o">=</span><span class="n">msg_id</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s">'full'</span><span class="p">).</span><span class="n">execute</span><span class="p">()</span>
+    
+    <span class="n">headers</span> <span class="o">=</span> <span class="n">message</span><span class="p">[</span><span class="s">'payload'</span><span class="p">][</span><span class="s">'headers'</span><span class="p">]</span>
+    <span class="n">subject</span> <span class="o">=</span> <span class="nb">next</span><span class="p">((</span><span class="n">header</span><span class="p">[</span><span class="s">'value'</span><span class="p">]</span> <span class="k">for</span> <span class="n">header</span> <span class="ow">in</span> <span class="n">headers</span> <span class="k">if</span> <span class="n">header</span><span class="p">[</span><span class="s">'name'</span><span class="p">].</span><span class="n">lower</span><span class="p">()</span> <span class="o">==</span> <span class="s">'subject'</span><span class="p">),</span> <span class="s">'(No Subject)'</span><span class="p">)</span>
+    <span class="n">sender</span> <span class="o">=</span> <span class="nb">next</span><span class="p">((</span><span class="n">header</span><span class="p">[</span><span class="s">'value'</span><span class="p">]</span> <span class="k">for</span> <span class="n">header</span> <span class="ow">in</span> <span class="n">headers</span> <span class="k">if</span> <span class="n">header</span><span class="p">[</span><span class="
