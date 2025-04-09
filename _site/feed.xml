@@ -1,423 +1,391 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-09T14:07:13+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Pointer Pages</title><subtitle>A blog where I share intriguing tech projects, ideas, and experiments — from software to hardware.</subtitle><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><entry><title type="html">Bending Time</title><link href="http://localhost:4000/miscellaneous/bending-time/" rel="alternate" type="text/html" title="Bending Time" /><published>2025-03-30T09:30:45+05:30</published><updated>2025-03-30T09:30:45+05:30</updated><id>http://localhost:4000/miscellaneous/bending-time</id><content type="html" xml:base="http://localhost:4000/miscellaneous/bending-time/">&lt;p&gt;What is a minute, really? Google would say it is 60 seconds. But do we perceive those 60 seconds the same way each time?  Check out these activities that can help you either slow down or speed up your perception of a minute. Feel free to share any other interesting examples you might have!&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-09T16:50:02+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Pointer Pages</title><subtitle>A blog where I share intriguing tech projects, ideas, and experiments — from software to hardware.</subtitle><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><entry><title type="html">Smart Expense Manager &amp;amp; Auto-Budgeting with Telegram + Gemini AI</title><link href="http://localhost:4000/full-stack/smart-expense-manager/" rel="alternate" type="text/html" title="Smart Expense Manager &amp;amp; Auto-Budgeting with Telegram + Gemini AI" /><published>2025-04-05T11:00:00+05:30</published><updated>2025-04-05T11:00:00+05:30</updated><id>http://localhost:4000/full-stack/smart-expense-manager</id><content type="html" xml:base="http://localhost:4000/full-stack/smart-expense-manager/">&lt;h2 id=&quot;-introduction&quot;&gt;💡 Introduction&lt;/h2&gt;
 
-&lt;h2 id=&quot;slowing-a-minute&quot;&gt;Slowing a Minute&lt;/h2&gt;
+&lt;p&gt;Managing expenses shouldn’t feel like managing a spreadsheet. That’s what drove the idea behind &lt;strong&gt;Smart Expense Manager&lt;/strong&gt; — a conversational, intelligent solution for personal and group expense tracking, built using &lt;strong&gt;Telegram&lt;/strong&gt;, &lt;strong&gt;Razorpay&lt;/strong&gt;, &lt;strong&gt;Gemini AI&lt;/strong&gt;, and &lt;strong&gt;MongoDB&lt;/strong&gt;.&lt;/p&gt;
 
+&lt;p&gt;This was my hackathon entry for a software innovation challenge — and it turned into one of the most fun and useful projects I’ve built!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-what-the-system-does&quot;&gt;🧠 What the System Does&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“A Telegram message is all it takes.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This smart assistant helps users:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Try holding a squat or L-sit for 60 seconds.&lt;/li&gt;
-  &lt;li&gt;Try holding your breath for 60 seconds.&lt;/li&gt;
-  &lt;li&gt;After asking a question to a group of people wait for 60 seconds before you answer.&lt;/li&gt;
-  &lt;li&gt;Sprint at full speed for 60 secs.&lt;/li&gt;
-  &lt;li&gt;Attend a lecture of the topic you find boring.&lt;/li&gt;
+  &lt;li&gt;📥 Log expenses easily from chat&lt;/li&gt;
+  &lt;li&gt;👥 Split bills with friends in real-time&lt;/li&gt;
+  &lt;li&gt;🤖 Use AI to suggest budgets based on spending&lt;/li&gt;
+  &lt;li&gt;💰 Handle payments using Razorpay&lt;/li&gt;
+  &lt;li&gt;📲 Get alerts via SMS&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;speeding-up-a-minute&quot;&gt;Speeding up a Minute&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Try to write an answer that takes 10 minutes in 60 seconds during a test.&lt;/li&gt;
-  &lt;li&gt;Spend time with your loved one.&lt;/li&gt;
-  &lt;li&gt;Watch reels on Instagram&lt;/li&gt;
-  &lt;li&gt;Take a 60 seconds nap.&lt;/li&gt;
-  &lt;li&gt;Try to come up with a solution for a leetcode medium question in 60 seconds.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;All without ever leaving Telegram.&lt;/p&gt;
 
-&lt;hr /&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="miscellaneous" /><category term="time" /><category term="minute" /><summary type="html">What is a minute, really? Google would say it is 60 seconds. But do we perceive those 60 seconds the same way each time? Check out these activities that can help you either slow down or speed up your perception of a minute. Feel free to share any other interesting examples you might have!</summary></entry><entry><title type="html">Node Production Headache: Security Headers</title><link href="http://localhost:4000/full-stack/node-and-security-headers/" rel="alternate" type="text/html" title="Node Production Headache: Security Headers" /><published>2025-01-18T09:30:45+05:30</published><updated>2025-01-18T09:30:45+05:30</updated><id>http://localhost:4000/full-stack/node-and-security-headers</id><content type="html" xml:base="http://localhost:4000/full-stack/node-and-security-headers/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;Hearing the term “&lt;em&gt;security headers&lt;/em&gt;” might be intimidating for someone new to computer science, especially in the field of web development. Security headers are HTTP response headers that provide essential security measures that your application can use to enhance its overall security. These headers play a critical role in ensuring the safety of a website.&lt;/p&gt;
-
-&lt;p&gt;The following table outlines some of the most important security headers.&lt;/p&gt;
-
-&lt;h2 id=&quot;common-security-headers&quot;&gt;Common Security Headers&lt;/h2&gt;
+&lt;h2 id=&quot;️-tech-stack&quot;&gt;🛠️ Tech Stack&lt;/h2&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Security Header&lt;/th&gt;
-      &lt;th&gt;Expected Value&lt;/th&gt;
-      &lt;th&gt;Use&lt;/th&gt;
+      &lt;th&gt;Layer&lt;/th&gt;
+      &lt;th&gt;Stack Used&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;Content-Security-Policy&lt;/td&gt;
-      &lt;td&gt;default-src ‘self’;&lt;/td&gt;
-      &lt;td&gt;Restricts sources for content to mitigate cross-site scripting (XSS) and data injection.&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Frontend&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Telegram Chat UI&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Cross-Origin-Opener-Policy&lt;/td&gt;
-      &lt;td&gt;same-origin&lt;/td&gt;
-      &lt;td&gt;Isolates browsing contexts to prevent cross-origin information leaks.&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Backend&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Node.js + Express&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Cross-Origin-Resource-Policy&lt;/td&gt;
-      &lt;td&gt;same-origin&lt;/td&gt;
-      &lt;td&gt;Limits the sharing of resources to the same origin.&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;AI Engine&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Gemini API (Google AI)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Origin-Agent-Cluster&lt;/td&gt;
-      &lt;td&gt;?1&lt;/td&gt;
-      &lt;td&gt;Changes process isolation to be origin-based for improved security.&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Database&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;MongoDB Atlas&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Referrer-Policy&lt;/td&gt;
-      &lt;td&gt;no-referrer or strict-origin&lt;/td&gt;
-      &lt;td&gt;Controls how much referrer information is included with requests.&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Payments&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Razorpay Integration&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;Strict-Transport-Security&lt;/td&gt;
-      &lt;td&gt;max-age=31536000; includeSubDomains&lt;/td&gt;
-      &lt;td&gt;Enforces HTTPS for all connections and prevents downgrade attacks.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;X-Content-Type-Options&lt;/td&gt;
-      &lt;td&gt;nosniff&lt;/td&gt;
-      &lt;td&gt;Prevents the browser from MIME-sniffing a response away from the declared content-type.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;X-DNS-Prefetch-Control&lt;/td&gt;
-      &lt;td&gt;on or off&lt;/td&gt;
-      &lt;td&gt;Controls DNS prefetching to reduce potential information leaks.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;X-Download-Options&lt;/td&gt;
-      &lt;td&gt;noopen&lt;/td&gt;
-      &lt;td&gt;Forces downloads to be saved instead of auto-executed (Internet Explorer only).&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;X-Frame-Options&lt;/td&gt;
-      &lt;td&gt;DENY or SAMEORIGIN&lt;/td&gt;
-      &lt;td&gt;Prevents the webpage from being framed to protect against clickjacking attacks.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;X-Permitted-Cross-Domain-Policies&lt;/td&gt;
-      &lt;td&gt;none or master-only&lt;/td&gt;
-      &lt;td&gt;Controls cross-domain behavior for Adobe products, like Acrobat.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;X-Powered-By&lt;/td&gt;
-      &lt;td&gt;(Header removed entirely)&lt;/td&gt;
-      &lt;td&gt;Prevents revealing server information to mitigate potential attacks.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;X-XSS-Protection&lt;/td&gt;
-      &lt;td&gt;0&lt;/td&gt;
-      &lt;td&gt;Disables buggy XSS filters in older browsers to avoid unintended issues.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Permissions-Policy&lt;/td&gt;
-      &lt;td&gt;geolocation=(), microphone=()&lt;/td&gt;
-      &lt;td&gt;Restricts access to browser features like geolocation and microphone.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Expect-CT&lt;/td&gt;
-      &lt;td&gt;enforce, max-age=86400&lt;/td&gt;
-      &lt;td&gt;Ensures that valid Certificate Transparency information is included for HTTPS.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Cross-Origin-Embedder-Policy&lt;/td&gt;
-      &lt;td&gt;require-corp&lt;/td&gt;
-      &lt;td&gt;Mitigates cross-origin attacks for resources embedded in the page.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Cache-Control&lt;/td&gt;
-      &lt;td&gt;no-store, no-cache, must-revalidate&lt;/td&gt;
-      &lt;td&gt;Prevents sensitive information from being stored in the cache.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Set-Cookie&lt;/td&gt;
-      &lt;td&gt;Secure; HttpOnly; SameSite=Strict&lt;/td&gt;
-      &lt;td&gt;Protects cookies by making them secure, accessible only to HTTP, and tied to the same site.&lt;/td&gt;
+      &lt;td&gt;&lt;strong&gt;Alerts&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Twilio SMS / Bot API&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;When building a web application, the developer must set these response headers in the code.&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;h2 id=&quot;how-to-set-security-headers&quot;&gt;How to Set Security Headers&lt;/h2&gt;
-
-&lt;p&gt;Let’s consider an example in Node.js. We can set security headers either manually or by using a popular library called ‘&lt;em&gt;helmet&lt;/em&gt;’, which acts as middleware to automatically set these headers for you. Using a library like helmet is convenient, so we’ll focus on its implementation. First, we will look at how to use helmet in your code, and then we will discuss the importance of carefully setting security headers when deploying to production.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Install Helmet using this command&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ npm install helmet
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Call the helmet middleware in your application’s main file for e.g &lt;em&gt;index.js&lt;/em&gt; or &lt;em&gt;app.js&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;helmet&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;helmet&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;express&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-
-&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;helmet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;You can learn more about the default headers set by the Helmet.js by reading &lt;a href=&quot;https://www.npmjs.com/package/helmet&quot;&gt;&lt;span style=&quot;color: blue;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;If you want to customize the default headers set by Helmet, you can do so. &lt;em&gt;&lt;strong&gt;It is essential to customize the headers&lt;/strong&gt; because relying solely on the default headers provided by Helmet in a production environment can hinder the functionality of your application.&lt;/em&gt; Why is this the case ? Let’s discuss it in the next section.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;security-headers-and-production-environment&quot;&gt;Security Headers and Production Environment&lt;/h2&gt;
-
-&lt;p&gt;After coding my Node.js application, I was ready to deploy it in production. I initially thought that the deployment process would go faster since I had already simulated it on my virtual machine, but I was mistaken. If you noticed, I mentioned “headache” in the title of this blog for a reason.&lt;/p&gt;
-
-&lt;p&gt;When I simulated the production environment on my virtual machine - it was set up on localhost, also the microsoft login was not set during that time.&lt;/p&gt;
-
-&lt;p&gt;When I deployed the application in production on my domain - the following issues were encountered over a span of one week&lt;/p&gt;
+&lt;h2 id=&quot;-architecture-overview&quot;&gt;🧱 Architecture Overview&lt;/h2&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;I encountered an issue where the Microsoft login popup was not appearing. After changing the popup setting to redirect, it directed me to the Microsoft Login page. However, after entering the correct login credentials, I ended up with a blank page.
+  &lt;li&gt;&lt;strong&gt;User sends command&lt;/strong&gt; to the Telegram bot (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/add&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/split&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/view&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/suggest&lt;/code&gt;)&lt;/li&gt;
+  &lt;li&gt;Bot sends the data to a &lt;strong&gt;Node.js backend&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;User data, group metadata, and expenses are stored in &lt;strong&gt;MongoDB&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;The backend:
     &lt;ul&gt;
-      &lt;li&gt;This happened because the Content Security Policy (CSP) was not configured to allow requests from the Microsoft website. The login popup was not appearing because the frameAncestors and frameSrc in the CSP was not configured for &lt;ins&gt;&lt;em&gt;“https://login.microsoftonline.com”&lt;/em&gt;&lt;/ins&gt;&lt;/li&gt;
-      &lt;li&gt;To resolve this, I updated the &lt;mark&gt;connectSrc&lt;/mark&gt;, &lt;mark&gt;frameSrc&lt;/mark&gt;, &lt;mark&gt;frameAncestors&lt;/mark&gt; in the CSP to include not only the “self” variable but also all the domains from which we expected to receive requests.
-        &lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-&lt;span class=&quot;nf&quot;&gt;helmet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
- &lt;span class=&quot;na&quot;&gt;contentSecurityPolicy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
- &lt;span class=&quot;na&quot;&gt;directives&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-   &lt;span class=&quot;na&quot;&gt;defaultSrc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&apos;self&apos;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-   &lt;span class=&quot;na&quot;&gt;connectSrc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&apos;self&apos;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://login.microsoftonline.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://graph.microsoft.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://mydomain.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://somethirdpartydomain.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-   &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-   &lt;span class=&quot;na&quot;&gt;frameSrc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&apos;self&apos;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://login.microsoftonline.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://mydomain.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;blob:&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-   &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// for tokens&lt;/span&gt;
-   &lt;span class=&quot;na&quot;&gt;frameAncestors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&apos;self&apos;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://login.microsoftonline.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://mydomain.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-   &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Allows embedding in Azure AD frames/popups&lt;/span&gt;
- &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
- &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
+      &lt;li&gt;Calls &lt;strong&gt;Gemini AI&lt;/strong&gt; to suggest budgeting categories and limits&lt;/li&gt;
+      &lt;li&gt;Calls &lt;strong&gt;Razorpay API&lt;/strong&gt; to send payment links if needed&lt;/li&gt;
+      &lt;li&gt;Sends SMS reminders through &lt;strong&gt;Twilio&lt;/strong&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;After the above three changes, I was able to login, but still faced problems. Half of my stylesheet, scripts and images were not present and the pop ups were not showing small elements like a cross svg etc.
-    &lt;ul&gt;
-      &lt;li&gt;To resolve that, I updated the &lt;mark&gt;scriptSrc&lt;/mark&gt;, &lt;mark&gt;imgSrc&lt;/mark&gt; and &lt;mark&gt;styleSrc&lt;/mark&gt; in the CSP directives. &lt;br /&gt;
-        &lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-&lt;span class=&quot;nf&quot;&gt;helmet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
- &lt;span class=&quot;na&quot;&gt;contentSecurityPolicy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
- &lt;span class=&quot;na&quot;&gt;directives&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-   &lt;span class=&quot;na&quot;&gt;defaultSrc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&apos;self&apos;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-   &lt;span class=&quot;na&quot;&gt;connectSrc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&apos;self&apos;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://login.microsoftonline.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://graph.microsoft.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://mydomain.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://somethirdpartydomain.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-   &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-   &lt;span class=&quot;na&quot;&gt;frameSrc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&apos;self&apos;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://login.microsoftonline.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://mydomain.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;blob:&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-   &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// for tokens&lt;/span&gt;
-   &lt;span class=&quot;na&quot;&gt;frameAncestors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&apos;self&apos;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://login.microsoftonline.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://mydomain.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-   &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Allows embedding in Azure AD frames/popups&lt;/span&gt;
-   &lt;span class=&quot;na&quot;&gt;scriptSrc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&apos;self&apos;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://login.microsoftonline.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-     &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://mydomain.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-   &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-   &lt;span class=&quot;na&quot;&gt;imgSrc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&apos;self&apos;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;blob:&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;data:&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-   &lt;span class=&quot;na&quot;&gt;styleSrc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&apos;self&apos;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&apos;unsafe-inline&apos;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://mydomain.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Allows inline styles&lt;/span&gt;
- &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
- &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;User receives updates — budget suggestions, summaries, and payment confirmations — right inside Telegram.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;The following is some of the security header configuration I used to deploy my application to production. Additionally, we need to implement CORS (Cross-Origin Resource Sharing), which is not included in Helmet. CORS can be quite tricky, so I will save that topic for another post. Thank you for reading until the end!&lt;/p&gt;
-&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;helmet&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;helmet&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;hr /&gt;
 
-&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;express&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;h2 id=&quot;-core-features&quot;&gt;🔑 Core Features&lt;/h2&gt;
 
-&lt;span class=&quot;nx&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-  &lt;span class=&quot;nf&quot;&gt;helmet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;contentSecurityPolicy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;directives&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;defaultSrc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&apos;self&apos;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;connectSrc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-          &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&apos;self&apos;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-          &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://login.microsoftonline.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-          &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://graph.microsoft.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-          &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://mydomain.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-          &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://somethirdpartydomain.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;frameSrc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-          &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&apos;self&apos;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-          &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://login.microsoftonline.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-          &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://mydomain.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-          &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;blob:&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// for tokens&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;frameAncestors&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-          &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&apos;self&apos;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-          &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://login.microsoftonline.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-          &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://mydomain.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Allows embedding in Azure AD frames/popups&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;scriptSrc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
-          &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&apos;self&apos;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-          &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://login.microsoftonline.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-          &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://mydomain.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;imgSrc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&apos;self&apos;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;blob:&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;data:&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;styleSrc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&apos;self&apos;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&apos;unsafe-inline&apos;&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;https://mydomain.com&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Allows inline styles&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;crossOriginOpenerPolicy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;policy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;same-origin&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;crossOriginResourcePolicy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;policy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;same-origin&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;originAgentCluster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;referrerPolicy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;policy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;no-referrer&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;hsts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;maxAge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;31536000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//  HSTS policy remains in effect for one year&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;includeSubDomains&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-      &lt;span class=&quot;na&quot;&gt;preload&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;noSniff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;dnsPrefetchControl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;allow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;frameguard&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;sameorigin&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;permittedCrossDomainPolicies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;permittedPolicies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="full-stack" /><category term="node js" /><category term="security headers" /><category term="web app" /><category term="helmet" /><category term="production" /><summary type="html">Introduction Hearing the term “security headers” might be intimidating for someone new to computer science, especially in the field of web development. Security headers are HTTP response headers that provide essential security measures that your application can use to enhance its overall security. These headers play a critical role in ensuring the safety of a website. The following table outlines some of the most important security headers. Common Security Headers Security Header Expected Value Use Content-Security-Policy default-src ‘self’; Restricts sources for content to mitigate cross-site scripting (XSS) and data injection. Cross-Origin-Opener-Policy same-origin Isolates browsing contexts to prevent cross-origin information leaks. Cross-Origin-Resource-Policy same-origin Limits the sharing of resources to the same origin. Origin-Agent-Cluster ?1 Changes process isolation to be origin-based for improved security. Referrer-Policy no-referrer or strict-origin Controls how much referrer information is included with requests. Strict-Transport-Security max-age=31536000; includeSubDomains Enforces HTTPS for all connections and prevents downgrade attacks. X-Content-Type-Options nosniff Prevents the browser from MIME-sniffing a response away from the declared content-type. X-DNS-Prefetch-Control on or off Controls DNS prefetching to reduce potential information leaks. X-Download-Options noopen Forces downloads to be saved instead of auto-executed (Internet Explorer only). X-Frame-Options DENY or SAMEORIGIN Prevents the webpage from being framed to protect against clickjacking attacks. X-Permitted-Cross-Domain-Policies none or master-only Controls cross-domain behavior for Adobe products, like Acrobat. X-Powered-By (Header removed entirely) Prevents revealing server information to mitigate potential attacks. X-XSS-Protection 0 Disables buggy XSS filters in older browsers to avoid unintended issues. Permissions-Policy geolocation=(), microphone=() Restricts access to browser features like geolocation and microphone. Expect-CT enforce, max-age=86400 Ensures that valid Certificate Transparency information is included for HTTPS. Cross-Origin-Embedder-Policy require-corp Mitigates cross-origin attacks for resources embedded in the page. Cache-Control no-store, no-cache, must-revalidate Prevents sensitive information from being stored in the cache. Set-Cookie Secure; HttpOnly; SameSite=Strict Protects cookies by making them secure, accessible only to HTTP, and tied to the same site. When building a web application, the developer must set these response headers in the code. How to Set Security Headers Let’s consider an example in Node.js. We can set security headers either manually or by using a popular library called ‘helmet’, which acts as middleware to automatically set these headers for you. Using a library like helmet is convenient, so we’ll focus on its implementation. First, we will look at how to use helmet in your code, and then we will discuss the importance of carefully setting security headers when deploying to production. Install Helmet using this command $ npm install helmet Call the helmet middleware in your application’s main file for e.g index.js or app.js import helmet from &quot;helmet&quot;; const app = express(); app.use(helmet()); You can learn more about the default headers set by the Helmet.js by reading here. If you want to customize the default headers set by Helmet, you can do so. It is essential to customize the headers because relying solely on the default headers provided by Helmet in a production environment can hinder the functionality of your application. Why is this the case ? Let’s discuss it in the next section. Security Headers and Production Environment After coding my Node.js application, I was ready to deploy it in production. I initially thought that the deployment process would go faster since I had already simulated it on my virtual machine, but I was mistaken. If you noticed, I mentioned “headache” in the title of this blog for a reason. When I simulated the production environment on my virtual machine - it was set up on localhost, also the microsoft login was not set during that time. When I deployed the application in production on my domain - the following issues were encountered over a span of one week I encountered an issue where the Microsoft login popup was not appearing. After changing the popup setting to redirect, it directed me to the Microsoft Login page. However, after entering the correct login credentials, I ended up with a blank page. This happened because the Content Security Policy (CSP) was not configured to allow requests from the Microsoft website. The login popup was not appearing because the frameAncestors and frameSrc in the CSP was not configured for “https://login.microsoftonline.com” To resolve this, I updated the connectSrc, frameSrc, frameAncestors in the CSP to include not only the “self” variable but also all the domains from which we expected to receive requests. app.use( helmet({ contentSecurityPolicy: { directives: { defaultSrc: [&quot;&apos;self&apos;&quot;], connectSrc: [ &quot;&apos;self&apos;&quot;, &quot;https://login.microsoftonline.com&quot;, &quot;https://graph.microsoft.com&quot;, &quot;https://mydomain.com&quot;, &quot;https://somethirdpartydomain.com&quot;, ], frameSrc: [ &quot;&apos;self&apos;&quot;, &quot;https://login.microsoftonline.com&quot;, &quot;https://mydomain.com&quot;, &quot;blob:&quot;, ], // for tokens frameAncestors: [ &quot;&apos;self&apos;&quot;, &quot;https://login.microsoftonline.com&quot;, &quot;https://mydomain.com&quot;, ], // Allows embedding in Azure AD frames/popups }, }, }) ); After the above three changes, I was able to login, but still faced problems. Half of my stylesheet, scripts and images were not present and the pop ups were not showing small elements like a cross svg etc. To resolve that, I updated the scriptSrc, imgSrc and styleSrc in the CSP directives. app.use( helmet({ contentSecurityPolicy: { directives: { defaultSrc: [&quot;&apos;self&apos;&quot;], connectSrc: [ &quot;&apos;self&apos;&quot;, &quot;https://login.microsoftonline.com&quot;, &quot;https://graph.microsoft.com&quot;, &quot;https://mydomain.com&quot;, &quot;https://somethirdpartydomain.com&quot;, ], frameSrc: [ &quot;&apos;self&apos;&quot;, &quot;https://login.microsoftonline.com&quot;, &quot;https://mydomain.com&quot;, &quot;blob:&quot;, ], // for tokens frameAncestors: [ &quot;&apos;self&apos;&quot;, &quot;https://login.microsoftonline.com&quot;, &quot;https://mydomain.com&quot;, ], // Allows embedding in Azure AD frames/popups scriptSrc: [ &quot;&apos;self&apos;&quot;, &quot;https://login.microsoftonline.com&quot;, &quot;https://mydomain.com&quot;, ], imgSrc: [&quot;&apos;self&apos;&quot;, &quot;blob:&quot;, &quot;data:&quot;], styleSrc: [&quot;&apos;self&apos;&quot;, &quot;&apos;unsafe-inline&apos;&quot;, &quot;https://mydomain.com&quot;], // Allows inline styles }, }, }) ); The following is some of the security header configuration I used to deploy my application to production. Additionally, we need to implement CORS (Cross-Origin Resource Sharing), which is not included in Helmet. CORS can be quite tricky, so I will save that topic for another post. Thank you for reading until the end! import helmet from &quot;helmet&quot;; const app = express(); app.use( helmet({ contentSecurityPolicy: { directives: { defaultSrc: [&quot;&apos;self&apos;&quot;], connectSrc: [ &quot;&apos;self&apos;&quot;, &quot;https://login.microsoftonline.com&quot;, &quot;https://graph.microsoft.com&quot;, &quot;https://mydomain.com&quot;, &quot;https://somethirdpartydomain.com&quot;, ], frameSrc: [ &quot;&apos;self&apos;&quot;, &quot;https://login.microsoftonline.com&quot;, &quot;https://mydomain.com&quot;, &quot;blob:&quot;, ], // for tokens frameAncestors: [ &quot;&apos;self&apos;&quot;, &quot;https://login.microsoftonline.com&quot;, &quot;https://mydomain.com&quot;, ], // Allows embedding in Azure AD frames/popups scriptSrc: [ &quot;&apos;self&apos;&quot;, &quot;https://login.microsoftonline.com&quot;, &quot;https://mydomain.com&quot;, ], imgSrc: [&quot;&apos;self&apos;&quot;, &quot;blob:&quot;, &quot;data:&quot;], styleSrc: [&quot;&apos;self&apos;&quot;, &quot;&apos;unsafe-inline&apos;&quot;, &quot;https://mydomain.com&quot;], // Allows inline styles }, }, crossOriginOpenerPolicy: { policy: &quot;same-origin&quot; }, crossOriginResourcePolicy: { policy: &quot;same-origin&quot; }, originAgentCluster: true, referrerPolicy: { policy: &quot;no-referrer&quot; }, hsts: { maxAge: 31536000, // HSTS policy remains in effect for one year includeSubDomains: true, preload: true, }, noSniff: true, dnsPrefetchControl: { allow: false }, frameguard: { action: &quot;sameorigin&quot; }, permittedCrossDomainPolicies: { permittedPolicies: &quot;none&quot; }, }) );</summary></entry><entry><title type="html">Node Js and React Js Web App: An Overview</title><link href="http://localhost:4000/full-stack/a-node-js-web-app-an-overview/" rel="alternate" type="text/html" title="Node Js and React Js Web App: An Overview" /><published>2025-01-04T09:30:45+05:30</published><updated>2025-01-04T09:30:45+05:30</updated><id>http://localhost:4000/full-stack/a-node-js-web-app-an-overview</id><content type="html" xml:base="http://localhost:4000/full-stack/a-node-js-web-app-an-overview/">&lt;p&gt;During my summer internship, I was tasked with building a full-stack web application to meet the company’s needs. The technology was completely new to me, so it took quite a bit of time to understand how the different components—Node.js for the backend, React for the frontend, and a database—fit together. In this blog, I will explain the general structure of a Node-React full-stack application wrt programming perspective.&lt;/p&gt;
+&lt;h3 id=&quot;1--telegram-chat-bot&quot;&gt;1. 💬 Telegram Chat Bot&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Intuitive chat-first interface&lt;/li&gt;
+  &lt;li&gt;Expense logging in seconds&lt;/li&gt;
+  &lt;li&gt;Group creation &amp;amp; invite support&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2--gemini-ai-budgeting&quot;&gt;2. 🧠 Gemini AI Budgeting&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Analyzes past spend data&lt;/li&gt;
+  &lt;li&gt;Recommends monthly budget goals&lt;/li&gt;
+  &lt;li&gt;Adjusts based on user behavior&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3--razorpay-integration&quot;&gt;3. 💸 Razorpay Integration&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Real-time request-to-pay system&lt;/li&gt;
+  &lt;li&gt;Pings payer via UPI or card&lt;/li&gt;
+  &lt;li&gt;Confirms payments instantly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;4--alerts-via-sms--telegram&quot;&gt;4. 📢 Alerts via SMS / Telegram&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sends transaction confirmations&lt;/li&gt;
+  &lt;li&gt;Daily/weekly budget digests&lt;/li&gt;
+  &lt;li&gt;Payment reminders&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-example-use-case&quot;&gt;💼 Example Use Case&lt;/h2&gt;
+
+&lt;p&gt;You enter:
+```bash
+/split Pizza 1200 with @rohan @raj @meena
+➡️ The bot:&lt;/p&gt;
+
+&lt;p&gt;Splits amount ₹300 each&lt;/p&gt;
+
+&lt;p&gt;Sends Razorpay requests&lt;/p&gt;
+
+&lt;p&gt;Logs in MongoDB&lt;/p&gt;
+
+&lt;p&gt;Notifies users via SMS + bot chat&lt;/p&gt;
+
+&lt;p&gt;🔮 Future Scope
+Voice-command support with Google Assistant&lt;/p&gt;
+
+&lt;p&gt;Expense forecasting with ML&lt;/p&gt;
+
+&lt;p&gt;Integration with bank APIs&lt;/p&gt;
+
+&lt;p&gt;Android/iOS native companion app&lt;/p&gt;
+
+&lt;p&gt;Leaderboard of budgeters (gamification)&lt;/p&gt;
+
+&lt;p&gt;✨ Takeaway
+This project helped me explore:&lt;/p&gt;
+
+&lt;p&gt;Real-time APIs and integrations&lt;/p&gt;
+
+&lt;p&gt;Multi-user concurrency via chatbots&lt;/p&gt;
+
+&lt;p&gt;Payment flow design&lt;/p&gt;
+
+&lt;p&gt;AI-in-the-loop systems&lt;/p&gt;
+
+&lt;p&gt;It’s the perfect example of how GenAI + full-stack dev can create delightful user experiences — that are actually useful.&lt;/p&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="full-stack" /><category term="telegram bot" /><category term="gemini" /><category term="razorpay" /><category term="mongodb" /><category term="ai" /><category term="expense tracker" /><category term="budgeting" /><summary type="html">💡 Introduction</summary></entry><entry><title type="html">Process Scheduling Algorithms in Operating Systems</title><link href="http://localhost:4000/operating%20systems/process-scheduling-algorithms/" rel="alternate" type="text/html" title="Process Scheduling Algorithms in Operating Systems" /><published>2025-02-15T09:00:00+05:30</published><updated>2025-02-15T09:00:00+05:30</updated><id>http://localhost:4000/operating%20systems/process-scheduling-algorithms</id><content type="html" xml:base="http://localhost:4000/operating%20systems/process-scheduling-algorithms/">&lt;h2 id=&quot;-introduction&quot;&gt;🧠 Introduction&lt;/h2&gt;
+
+&lt;p&gt;In a multitasking operating system, &lt;strong&gt;process scheduling&lt;/strong&gt; is the key to managing how the CPU is shared among multiple processes.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;ℹ️ &lt;span style=&quot;color: blue;&quot;&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
-This is a beginner’s guide, and the structure outlined here will be used in the &lt;ins&gt;&lt;strong&gt;development environment&lt;/strong&gt;&lt;/ins&gt;.  To deploy the application to &lt;em&gt;production&lt;/em&gt;, several changes need to be made, including modifications to the backend .env file and converting the React frontend to static JavaScript files. I plan to cover more details on this in my upcoming blogs.&lt;/p&gt;
+  &lt;p&gt;A scheduler decides &lt;strong&gt;which process gets the CPU&lt;/strong&gt;, for how long, and in what order.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;hr /&gt;
-&lt;h3 id=&quot;components-of-a-full-stack-web-app&quot;&gt;Components of a Full Stack Web App&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;Frontend Development
-    &lt;ul&gt;
-      &lt;li&gt;It is the visible part of a website responsible for user experience.&lt;/li&gt;
-      &lt;li&gt;Responsible for user interaction.&lt;/li&gt;
-      &lt;li&gt;Calls the backend api.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Backend Development
-    &lt;ul&gt;
-      &lt;li&gt;It involves the server-side development of websites, focusing primarily on their functionality.&lt;/li&gt;
-      &lt;li&gt;Responsible for managing the database through queries and APIs based on client-side commands.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Database
-    &lt;ul&gt;
-      &lt;li&gt;An organized collection of related data that enables efficient retrieval, insertion, and deletion of information.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;This blog breaks down the &lt;strong&gt;most common scheduling algorithms&lt;/strong&gt; in OS: FIFO, Round Robin, SJF, Priority, and Multilevel Queue.&lt;/p&gt;
 
 &lt;hr /&gt;
-&lt;p&gt;&lt;img src=&quot;/images/react-node-web-app.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;As shown in the picture, this illustrates the flow of a query from the frontend to the backend and to the database, then back.&lt;/p&gt;
+&lt;h2 id=&quot;️-terminologies-first&quot;&gt;⚙️ Terminologies First&lt;/h2&gt;
 
-&lt;h3 id=&quot;points-to-note&quot;&gt;Points to Note&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;It is considered best practice to separate the client-side frontend code from the server-side backend code by organizing them into distinct folders.&lt;/li&gt;
-  &lt;li&gt;If you are using a Node-React technology stack, it’s important to note that the backend routes and frontend routes are different.&lt;/li&gt;
-  &lt;li&gt;During the development of your web application, you will need to run the React development server on a specific port, such as 3000, while the Node server should be started on a different port, like 5000. This setup allows the front end to send requests to the appropriate REST API (back-end route) to perform functions or fetch data. &lt;em&gt;(PS: in the PROD environment, the frontend and the backend are bundled up to use a single port)&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;If you are using MySQL or a similar relational database, the Node.js server will typically query the data on the default port 3306. However, if you wish to change this default port, you can specify the new port in the environment variables. &lt;em&gt;(More details on this will be covered in a future blog post.)&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Burst Time (BT)&lt;/strong&gt;: Time a process needs on the CPU&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Arrival Time (AT)&lt;/strong&gt;: When the process enters the ready queue&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Waiting Time (WT)&lt;/strong&gt;: Time process waits in the queue&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Turnaround Time (TAT)&lt;/strong&gt;: Time from arrival to completion&lt;br /&gt;
+&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TAT = Completion Time - Arrival Time&lt;/code&gt;&lt;br /&gt;
+&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;WT = TAT - Burst Time&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The ports really confused me in the beginning, but once the &lt;em&gt;WHY&lt;/em&gt; and &lt;em&gt;HOW&lt;/em&gt; of things is clear, everything becomes a piece of cake. This was a brief overview of the structure of a full stack application. I plan to write more blogs about this particular setup, so stay tuned! 😊&lt;/p&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="full-stack" /><category term="node js" /><category term="react" /><category term="web app" /><summary type="html">During my summer internship, I was tasked with building a full-stack web application to meet the company’s needs. The technology was completely new to me, so it took quite a bit of time to understand how the different components—Node.js for the backend, React for the frontend, and a database—fit together. In this blog, I will explain the general structure of a Node-React full-stack application wrt programming perspective.</summary></entry><entry><title type="html">The TCP/IP Model and Security</title><link href="http://localhost:4000/networking/the-tcp-ip-and-security/" rel="alternate" type="text/html" title="The TCP/IP Model and Security" /><published>2024-12-23T10:30:45+05:30</published><updated>2024-12-23T10:30:45+05:30</updated><id>http://localhost:4000/networking/the-tcp-ip-and-security</id><content type="html" xml:base="http://localhost:4000/networking/the-tcp-ip-and-security/">&lt;p&gt;The TCP/IP (Transmission Control Protocol/Internet Protocol) reference model defines how information moves from sender to receiver. TCP/IP was not originally designed with security, so we must secure the network using many external methods.  Many protocols are designed to secure network traffic at various levels. The choice of where to implement security in the stack depends on the application’s and user’s requirements. Regardless of where security is applied in the stack, it must provide the following fundamental services to the user:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Key management&lt;/li&gt;
-  &lt;li&gt;Confidentiality&lt;/li&gt;
-  &lt;li&gt;Nonrepudiation&lt;/li&gt;
-  &lt;li&gt;Integrity / Authentication&lt;/li&gt;
-  &lt;li&gt;Authorization&lt;/li&gt;
-&lt;/ol&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;The security measures implemented at different layers of the stack can offer varying services. In some instances, it is beneficial to assign certain capabilities to one layer while allocating others to a different layer. This blog explores the benefits and nuances of providing security at various levels within the TCP/IP stack.&lt;/p&gt;
+&lt;h2 id=&quot;1️⃣-fifo--fcfs-first-come-first-serve&quot;&gt;1️⃣ FIFO / FCFS (First Come First Serve)&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/network-models.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Concept&lt;/strong&gt;: Processes are scheduled in the order they arrive.&lt;/p&gt;
 
-&lt;h2 id=&quot;security-at-the-application-layer&quot;&gt;Security at the Application Layer&lt;/h2&gt;
-&lt;p&gt;The application layer connects applications to the underlying network for message transmission. Host-to-host communication occurs at the application layer, so security has to be implemented in end hosts. Applications should design their security mechanisms when their specific needs cannot be met by the lower layers. One example of this is non-repudiation. The lower layers struggle to provide non-repudiation services because they do not have access to the data. Some examples of the security mechanisms implemented at the applicaion layer include &lt;a href=&quot;https://en.wikipedia.org/wiki/Pretty_Good_Privacy&quot;&gt;&lt;span style=&quot;color: blue;&quot;&gt; PGP&lt;/span&gt;&lt;/a&gt;, &lt;a href=&quot;https://web.mit.edu/kerberos/&quot;&gt;&lt;span style=&quot;color: blue;&quot;&gt;Kerberos&lt;/span&gt;&lt;/a&gt;, and Secure Shell.&lt;/p&gt;
-&lt;h3 id=&quot;benefits&quot;&gt;Benefits&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Pros&lt;/th&gt;
+      &lt;th&gt;Cons&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Simple&lt;/td&gt;
+      &lt;td&gt;Convoy effect: long processes delay short ones&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Fair in order&lt;/td&gt;
+      &lt;td&gt;Poor average waiting time&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;📝 Example:
+Arrival: P1, P2, P3 BT: 4 3 2 → Order: P1 → P2 → P3&lt;/p&gt;
+
+&lt;p&gt;yaml
+Copy
+Edit&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;2️⃣-sjf-shortest-job-first&quot;&gt;2️⃣ SJF (Shortest Job First)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Concept&lt;/strong&gt;: Schedule the process with the &lt;strong&gt;smallest burst time&lt;/strong&gt; first.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Pros&lt;/th&gt;
+      &lt;th&gt;Cons&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Optimal avg WT&lt;/td&gt;
+      &lt;td&gt;Starvation of long processes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;Requires BT prediction&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;📝 Example:
+BT: P1=6, P2=2, P3=1 → Order: P3 → P2 → P1&lt;/p&gt;
+
+&lt;p&gt;yaml
+Copy
+Edit&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;3️⃣-round-robin-rr&quot;&gt;3️⃣ Round Robin (RR)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Concept&lt;/strong&gt;: Each process gets a &lt;strong&gt;fixed time slice&lt;/strong&gt; (quantum), then moves to the back of the queue.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Pros&lt;/th&gt;
+      &lt;th&gt;Cons&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Fair CPU sharing&lt;/td&gt;
+      &lt;td&gt;Depends on quantum size&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Great for time-sharing&lt;/td&gt;
+      &lt;td&gt;High context switch overhead&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;📝 Example (Quantum = 2):&lt;/p&gt;
+
+&lt;p&gt;Queue: P1=4, P2=3, P3=5
+Cycle: P1(2) → P2(2) → P3(2) → P1(2) → P2(1) → P3(3)&lt;/p&gt;
+
+&lt;p&gt;yaml
+Copy
+Edit&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;4️⃣-priority-scheduling&quot;&gt;4️⃣ Priority Scheduling&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Concept&lt;/strong&gt;: Each process has a priority. Highest priority runs first.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Pros&lt;/th&gt;
+      &lt;th&gt;Cons&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Flexible control&lt;/td&gt;
+      &lt;td&gt;Starvation of low priority&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Great for real-time apps&lt;/td&gt;
+      &lt;td&gt;Aging needed to prevent starvation&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;📝 Example:
+Priorities: P1=3, P2=1, P3=2 → Order: P2 → P3 → P1&lt;/p&gt;
+
+&lt;p&gt;yaml
+Copy
+Edit&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;5️⃣-multilevel-queue-scheduling&quot;&gt;5️⃣ Multilevel Queue Scheduling&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Concept&lt;/strong&gt;: Processes are grouped (interactive, batch, etc.) and each group has its own scheduling algorithm.&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;Executing in the context of the user enables easy access to user credentials such as private keys.&lt;/li&gt;
-  &lt;li&gt;Ensures complete access to the data the user aims to protect, making it easier to offer services like non-repudiation.&lt;/li&gt;
-  &lt;li&gt;An application can be extended without relying on the operating system to provide these services.&lt;/li&gt;
+  &lt;li&gt;Each queue has different priority.&lt;/li&gt;
+  &lt;li&gt;No process moves between queues (static).&lt;/li&gt;
+  &lt;li&gt;RR can be used inside queues.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;key-considerations&quot;&gt;Key Considerations&lt;/h3&gt;
+&lt;p&gt;🧠 Useful for systems with &lt;strong&gt;distinguished process types&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-comparison-table&quot;&gt;📊 Comparison Table&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Algorithm&lt;/th&gt;
+      &lt;th&gt;Preemptive&lt;/th&gt;
+      &lt;th&gt;Starvation Possible&lt;/th&gt;
+      &lt;th&gt;Best For&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;FCFS&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;Simplicity&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SJF&lt;/td&gt;
+      &lt;td&gt;❌/✅&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;Batch systems&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Round Robin&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;❌&lt;/td&gt;
+      &lt;td&gt;Time-sharing systems&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Priority&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;✅&lt;/td&gt;
+      &lt;td&gt;Real-time systems&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Multilevel&lt;/td&gt;
+      &lt;td&gt;✅/❌&lt;/td&gt;
+      &lt;td&gt;Depends&lt;/td&gt;
+      &lt;td&gt;Complex environments&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-pro-tip-visualizing-with-gantt-charts&quot;&gt;🧪 Pro Tip: Visualizing With Gantt Charts&lt;/h2&gt;
+
+&lt;p&gt;When practicing scheduling questions, always draw a &lt;strong&gt;Gantt chart&lt;/strong&gt; to understand execution flow and calculate:&lt;/p&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;Security mechanisms have to be designed independently for each application, so there is a greater probability of making mistakes and hence opening up security holes for attacks.&lt;/li&gt;
+  &lt;li&gt;Completion Time (CT)&lt;/li&gt;
+  &lt;li&gt;Waiting Time (WT)&lt;/li&gt;
+  &lt;li&gt;Turnaround Time (TAT)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;security-at-the-transport-layer&quot;&gt;Security at the Transport Layer&lt;/h2&gt;
-&lt;p&gt;The transport layer is responsible for logical communications between applications running on different hosts. Adding security at the transport layer does not need enhancements in each application. TLS (Transport Layer Security) protocol is implemented in the transport layer which provides security services such as authentication, integrity, and confidentiality on top of TCP. (TLS is not implemented over UDP as it needs to maintain context for a connection)&lt;/p&gt;
-&lt;h3 id=&quot;benefits-1&quot;&gt;Benefits&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;It bundles authentication with encryption.&lt;/li&gt;
-  &lt;li&gt;Easy to install and execute.&lt;/li&gt;
-  &lt;li&gt;It reinforces the integrity of the communication.&lt;/li&gt;
-  &lt;li&gt;The TLS protocol allows client and server applications to detect message tampering, message interception and message forgery.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;hr /&gt;
 
-&lt;h3 id=&quot;key-considerations-1&quot;&gt;Key Considerations&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Obtaining the user context is complicated.&lt;/li&gt;
-  &lt;li&gt;TLS can only be implemented on an end system.&lt;/li&gt;
-  &lt;li&gt;Applications need modification to request security services from the transport layer.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&quot;-final-thoughts&quot;&gt;💡 Final Thoughts&lt;/h2&gt;
 
-&lt;h2 id=&quot;security-at-the-network-layer&quot;&gt;Security at the Network Layer&lt;/h2&gt;
-&lt;p&gt;The network layer is concerned with addressing and routing packets from the source to the destination. It is the lowest layer in the OSI model that deals with end-to-end transmission. Implementing security at this layer has many advantages.&lt;/p&gt;
-&lt;h3 id=&quot;benefits-2&quot;&gt;Benefits&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Decreased overheads of key negotiations.&lt;/li&gt;
-  &lt;li&gt;If security implemented at the network and lower levels, fewer applications need changes.&lt;/li&gt;
-  &lt;li&gt;Ability to build VPNs and intranets which are subnet based, and network layer supports subnet-based security.&lt;/li&gt;
-  &lt;li&gt;IPSec, the protocol that can secure all and any kind of Internet traffic operates at the network level. IPSec also allows per flow or per connection security and thus allows for very fine-grained security control.
-    &lt;h3 id=&quot;key-considerations-2&quot;&gt;Key Considerations&lt;/h3&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Difficulty in handling issues such as non - repudiation of data. [As discussed above, this is better handled in higher layers]&lt;/li&gt;
-  &lt;li&gt;Difficult to exercise control on a per user basis on a multiuser machine when security is implemented at network layer.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Understanding process scheduling is &lt;strong&gt;core to operating systems&lt;/strong&gt; and is often asked in interviews and exams.&lt;/p&gt;
 
-&lt;h2 id=&quot;security-at-the-link-layer&quot;&gt;Security at the Link Layer&lt;/h2&gt;
-&lt;p&gt;The Data Link layer is responsible for communications between end-device network interface cards. This layer encapsulates network packets into frames and also performs error detection. If a dedicated link between two hosts or routers is present, then traffic needs encryption to prevent snooping, here hardware encryption devices can be used. For devices connected to IP networks, security at the data link layer is insufficient; one must move up a layer to provide adequate security services.&lt;/p&gt;
-&lt;h3 id=&quot;benefits-3&quot;&gt;Benefits&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Speedy and fast to implement because of hardware encryption devices&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Each algorithm is designed for specific use cases — there’s no one-size-fits-all. It’s all about choosing the right tool for the job!&lt;/p&gt;
 
-&lt;h3 id=&quot;key-considerations-3&quot;&gt;Key Considerations&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Not scalable&lt;/li&gt;
-  &lt;li&gt;This works well only on dedicated links – for e.g. ATM machines&lt;/li&gt;
-  &lt;li&gt;The two entities involved in communication have to be physically connected.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;Doraswamy, N. and Harkins, D. (1999) IPSec: The New Security Standard for the internet, intranets, and Virtual Private Networks. Upper Saddle River, NJ: Prentice Hall.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.spiceworks.com/it-security/vulnerability-management/articles/what-is-ssl-tls/&quot;&gt;&lt;span style=&quot;color: blue;&quot;&gt; What is TLS &lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="networking" /><category term="networks" /><category term="tls" /><category term="security" /><category term="tcp/ip" /><summary type="html">The TCP/IP (Transmission Control Protocol/Internet Protocol) reference model defines how information moves from sender to receiver. TCP/IP was not originally designed with security, so we must secure the network using many external methods. Many protocols are designed to secure network traffic at various levels. The choice of where to implement security in the stack depends on the application’s and user’s requirements. Regardless of where security is applied in the stack, it must provide the following fundamental services to the user: Key management Confidentiality Nonrepudiation Integrity / Authentication Authorization</summary></entry><entry><title type="html">Smart Email Routing: Automating Inbox Management with Gmail API and LLaMA</title><link href="http://localhost:4000/automation/smart-email-routing/" rel="alternate" type="text/html" title="Smart Email Routing: Automating Inbox Management with Gmail API and LLaMA" /><published>2024-06-18T10:15:30+05:30</published><updated>2024-06-18T10:15:30+05:30</updated><id>http://localhost:4000/automation/smart-email-routing</id><content type="html" xml:base="http://localhost:4000/automation/smart-email-routing/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Want a post covering &lt;strong&gt;Deadlocks&lt;/strong&gt;, &lt;strong&gt;Memory Management&lt;/strong&gt;, or &lt;strong&gt;Page Replacement Algorithms&lt;/strong&gt; next? Let me know 💡&lt;/p&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="operating systems" /><category term="os" /><category term="scheduling" /><category term="round robin" /><category term="fifo" /><category term="sjf" /><category term="priority" /><category term="cpu" /><category term="interview" /><summary type="html">🧠 Introduction</summary></entry><entry><title type="html">Smart Email Routing</title><link href="http://localhost:4000/full-stack/smart-email-routing/" rel="alternate" type="text/html" title="Smart Email Routing" /><published>2025-01-18T09:30:45+05:30</published><updated>2025-01-18T09:30:45+05:30</updated><id>http://localhost:4000/full-stack/smart-email-routing</id><content type="html" xml:base="http://localhost:4000/full-stack/smart-email-routing/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
 &lt;p&gt;In the age of overflowing inboxes, email triaging can become a real pain—especially when you’re part of a fast-moving organization. Manually sorting and forwarding emails can waste hours every week. I decided to automate this task by building a &lt;strong&gt;Smart Email Routing System&lt;/strong&gt; using the &lt;strong&gt;Gmail API&lt;/strong&gt; and the &lt;strong&gt;LLaMA 3.2 model from Ollama&lt;/strong&gt;.&lt;/p&gt;
 
@@ -714,69 +682,515 @@ Body:
   &lt;li&gt;🔁 Add scheduling&lt;/li&gt;
   &lt;li&gt;📊 Log and visualize routing stats&lt;/li&gt;
   &lt;li&gt;📥 Maybe even reply to some emails automatically…&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="automation" /><category term="gmail api" /><category term="llama" /><category term="ai" /><category term="email management" /><category term="python" /><summary type="html">Introduction</summary></entry><entry><title type="html">Deploy a Python Server with Flask on Windows Apache Server</title><link href="http://localhost:4000/tech-views/Ways-to-deploy-a-python-server-on-apache/" rel="alternate" type="text/html" title="Deploy a Python Server with Flask on Windows Apache Server" /><published>2023-07-22T09:30:45+05:30</published><updated>2023-07-22T09:30:45+05:30</updated><id>http://localhost:4000/tech-views/Ways-to-deploy-a-python-server-on-apache</id><content type="html" xml:base="http://localhost:4000/tech-views/Ways-to-deploy-a-python-server-on-apache/">&lt;p&gt;Recently I programmed a TLS/SSL checker web app - which checks which tls protocol a website is using and also gives a list of SSL vulnerablities the website is prone to.
-I programmed this script in python using flask framework and now I wanted to deploy it to the server.
-But little did I know that deploying or setting up a python server with flask can be tricky especially on a apache server.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="full-stack" /><category term="node js" /><category term="security headers" /><category term="web app" /><category term="helmet" /><category term="production" /><summary type="html">Introduction</summary></entry><entry><title type="html">Understanding Recursion and Stack Frames</title><link href="http://localhost:4000/dsa/recursion-and-stackframes/" rel="alternate" type="text/html" title="Understanding Recursion and Stack Frames" /><published>2024-12-20T11:00:00+05:30</published><updated>2024-12-20T11:00:00+05:30</updated><id>http://localhost:4000/dsa/recursion-and-stackframes</id><content type="html" xml:base="http://localhost:4000/dsa/recursion-and-stackframes/">&lt;h2 id=&quot;-introduction&quot;&gt;🧠 Introduction&lt;/h2&gt;
 
-&lt;p&gt;So, these are my learnings and some useful links - you can read them so that you can finish deploying a python server on Windows apache faster than me ! :)&lt;/p&gt;
+&lt;p&gt;Recursion is one of the most powerful — yet often misunderstood — concepts in computer science. It’s elegant, expressive, and frequently used in problems involving trees, graphs, backtracking, and more.&lt;/p&gt;
 
-&lt;h2 id=&quot;prerequisites&quot;&gt;Prerequisites:&lt;/h2&gt;
+&lt;p&gt;But what &lt;em&gt;really&lt;/em&gt; happens under the hood when a function calls itself?&lt;/p&gt;
+
+&lt;p&gt;The answer lies in how &lt;strong&gt;stack frames&lt;/strong&gt; work.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-what-is-recursion&quot;&gt;🔁 What is Recursion?&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A function that calls itself in order to solve a smaller version of a problem.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It has two main parts:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Python - can be downloaded from &lt;a href=&quot;https://www.python.org/downloads/&quot;&gt;&lt;span style=&quot;color: blue;&quot;&gt; https://www.python.org/downloads/&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Flask - can be installed by typing the following command in cmd
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ pip install flask
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-  &lt;/li&gt;
-  &lt;li&gt;WfastCGI module - installed by typing the following command in cmd
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ pip install wfastcgi
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;hr /&gt;
+  &lt;li&gt;&lt;strong&gt;Base Case&lt;/strong&gt;: When to stop&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Recursive Case&lt;/strong&gt;: When the function calls itself&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;📝 Example: Factorial&lt;br /&gt;
+```python
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+Calling factorial(3) leads to:&lt;/p&gt;
+
+&lt;p&gt;matlab
+Copy
+Edit
+factorial(3) → 3 * factorial(2)
+              → 3 * (2 * factorial(1))
+              → 3 * (2 * (1 * factorial(0)))
+              → 3 * 2 * 1 * 1 = 6
+🧱 The Role of Stack Frames
+Every time a function is called — including recursive calls — it gets its own stack frame:&lt;/p&gt;
+
+&lt;p&gt;A stack frame contains:
+Function parameters
+Local variables
+Return address
+This stack is called the call stack.&lt;/p&gt;
+
+&lt;p&gt;🧮 Visualizing the Stack for factorial(3)
+As the function calls build up:&lt;/p&gt;
+
+&lt;p&gt;scss
+Copy
+Edit
+TOP
+factorial(3)
+factorial(2)
+factorial(1)
+factorial(0)
+BOTTOM
+Each function waits for the next one to return a value.&lt;/p&gt;
+
+&lt;p&gt;Once the base case is hit (factorial(0)), the stack unwinds:&lt;/p&gt;
+
+&lt;p&gt;sql
+Copy
+Edit
+factorial(0) returns 1
+factorial(1) returns 1 * 1 = 1
+factorial(2) returns 2 * 1 = 2
+factorial(3) returns 3 * 2 = 6
+⚠️ Why Stack Overflow Happens
+If your recursion has no base case or goes too deep, the call stack runs out of space:&lt;/p&gt;
+
+&lt;p&gt;python
+Copy
+Edit
+def infinite():
+    return infinite()
+❌ This results in a stack overflow error, because the system can’t allocate any more stack frames.&lt;/p&gt;
+
+&lt;p&gt;💡 Tail Recursion Optimization (TCO)
+Some languages (like Lisp, Scheme, or optimized C compilers) support Tail Call Optimization where tail-recursive functions reuse the same stack frame.&lt;/p&gt;
+
+&lt;p&gt;Python and Java do not support TCO.&lt;/p&gt;
+
+&lt;p&gt;📊 Iterative vs Recursive
+Feature	Recursion	Iteration
+Simpler logic	Often yes	Sometimes complex
+Memory usage	Uses call stack	Uses loop variables
+Speed	Can be slower	Usually faster
+📘 Common Recursive Problems
+Factorial, Fibonacci&lt;/p&gt;
+
+&lt;p&gt;Tree traversals (DFS)&lt;/p&gt;
+
+&lt;p&gt;Backtracking (N-Queens, Maze)&lt;/p&gt;
+
+&lt;p&gt;Divide and conquer (Merge Sort, Quick Sort)&lt;/p&gt;
+
+&lt;p&gt;🧠 Final Thoughts
+Recursion is not magic — it’s just functions stacked on top of each other until a base case is hit.&lt;/p&gt;
+
+&lt;p&gt;Understanding the call stack is the key to mastering recursion. With that mental model, recursive problems become much easier to debug and optimize.&lt;/p&gt;
+
+&lt;p&gt;Let me know if you’d like a visual animation or stack simulation in JavaScript for this topic!&lt;/p&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="dsa" /><category term="recursion" /><category term="stack" /><category term="call stack" /><category term="memory" /><category term="dsa" /><summary type="html">🧠 Introduction</summary></entry><entry><title type="html">What are WebSockets? Explained Simply</title><link href="http://localhost:4000/networking/what-are-websockets/" rel="alternate" type="text/html" title="What are WebSockets? Explained Simply" /><published>2024-12-01T09:00:00+05:30</published><updated>2024-12-01T09:00:00+05:30</updated><id>http://localhost:4000/networking/what-are-websockets</id><content type="html" xml:base="http://localhost:4000/networking/what-are-websockets/">&lt;h2 id=&quot;-introduction&quot;&gt;🧠 Introduction&lt;/h2&gt;
+
+&lt;p&gt;Have you ever used a chat app, live score update site, or real-time collaboration tool like Google Docs?&lt;/p&gt;
+
+&lt;p&gt;Chances are, &lt;strong&gt;WebSockets&lt;/strong&gt; were involved.&lt;/p&gt;
+
+&lt;p&gt;WebSockets allow real-time, two-way communication between a browser (or client) and a server — something traditional HTTP was never designed for.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-what-is-a-websocket&quot;&gt;🧪 What is a WebSocket?&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A &lt;strong&gt;WebSocket&lt;/strong&gt; is a communication protocol that enables &lt;strong&gt;persistent&lt;/strong&gt;, &lt;strong&gt;bi-directional&lt;/strong&gt;, and &lt;strong&gt;full-duplex&lt;/strong&gt; communication between a client and server over a single &lt;strong&gt;TCP&lt;/strong&gt; connection.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-traditional-http-vs-websocket&quot;&gt;🔁 Traditional HTTP vs WebSocket&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Feature&lt;/th&gt;
+      &lt;th&gt;HTTP&lt;/th&gt;
+      &lt;th&gt;WebSocket&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Request-Response&lt;/td&gt;
+      &lt;td&gt;Client sends, server replies&lt;/td&gt;
+      &lt;td&gt;Bi-directional messages&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Connection Type&lt;/td&gt;
+      &lt;td&gt;Short-lived (stateless)&lt;/td&gt;
+      &lt;td&gt;Persistent&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Overhead&lt;/td&gt;
+      &lt;td&gt;High (headers in every request)&lt;/td&gt;
+      &lt;td&gt;Low (handshake once)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Real-time Updates&lt;/td&gt;
+      &lt;td&gt;Requires polling or long-polling&lt;/td&gt;
+      &lt;td&gt;Native real-time&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-how-websocket-works&quot;&gt;🔧 How WebSocket Works&lt;/h2&gt;
+
+&lt;h3 id=&quot;step-1-http-handshake&quot;&gt;Step 1: HTTP Handshake&lt;/h3&gt;
+
+&lt;p&gt;It starts with a normal HTTP request:&lt;/p&gt;
+
+&lt;p&gt;GET /chat HTTP/1.1 Host: server.com Upgrade: websocket Connection: Upgrade&lt;/p&gt;
+
+&lt;p&gt;csharp
+Copy
+Edit&lt;/p&gt;
+
+&lt;p&gt;If the server supports WebSockets, it responds with:&lt;/p&gt;
+
+&lt;p&gt;HTTP/1.1 101 Switching Protocols Upgrade: websocket Connection: Upgrade&lt;/p&gt;
+
+&lt;p&gt;yaml
+Copy
+Edit&lt;/p&gt;
+
+&lt;p&gt;Now the connection is &lt;strong&gt;upgraded to WebSocket&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;step-2-real-time-messaging-begins&quot;&gt;Step 2: Real-Time Messaging Begins&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Messages can now be sent in &lt;strong&gt;both directions&lt;/strong&gt; at any time.&lt;/li&gt;
+  &lt;li&gt;No need to wait for requests — the server can push data instantly!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;️-websocket-use-cases&quot;&gt;⚙️ WebSocket Use Cases&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;💬 Chat applications&lt;/li&gt;
+  &lt;li&gt;📈 Stock price tickers&lt;/li&gt;
+  &lt;li&gt;🎮 Multiplayer gaming&lt;/li&gt;
+  &lt;li&gt;🧠 Collaborative editing&lt;/li&gt;
+  &lt;li&gt;📡 Live notifications&lt;/li&gt;
+  &lt;li&gt;🕐 Real-time dashboards&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-example-code-nodejs&quot;&gt;🛠 Example Code (Node.js)&lt;/h2&gt;
+
+&lt;p&gt;```js
+const WebSocket = require(‘ws’);&lt;/p&gt;
+
+&lt;p&gt;const server = new WebSocket.Server({ port: 8080 });&lt;/p&gt;
+
+&lt;p&gt;server.on(‘connection’, socket =&amp;gt; {
+  console.log(‘Client connected’);&lt;/p&gt;
+
+&lt;p&gt;socket.on(‘message’, msg =&amp;gt; {
+    console.log(&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Received: ${msg}&lt;/code&gt;);
+    socket.send(&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Echo: ${msg}&lt;/code&gt;);
+  });&lt;/p&gt;
+
+&lt;p&gt;socket.on(‘close’, () =&amp;gt; {
+    console.log(‘Client disconnected’);
+  });
+});
+🚧 Limitations
+Not ideal for very short-lived connections&lt;/p&gt;
+
+&lt;p&gt;Can be blocked by some proxies/firewalls&lt;/p&gt;
+
+&lt;p&gt;Requires fallback for older browsers (or use libraries like Socket.IO)&lt;/p&gt;
+
+&lt;p&gt;✅ Alternatives &amp;amp; Protocols
+Protocol	When to Use
+HTTP	One-time fetches (GET/POST requests)
+WebSocket	Persistent, full-duplex communication
+SSE (Server Sent Events)	Server → Client only updates
+gRPC/WebRTC	Special real-time/peer-to-peer needs
+💡 Final Thoughts
+WebSockets changed the game by enabling true real-time web applications. They’re lightweight, fast, and perfect for scenarios where latency matters.&lt;/p&gt;
+
+&lt;p&gt;If you’re building anything interactive, collaborative, or instant — it’s time to speak WebSocket.&lt;/p&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="networking" /><category term="websockets" /><category term="real-time" /><category term="tcp" /><category term="http" /><category term="socket" /><category term="interview" /><summary type="html">🧠 Introduction</summary></entry><entry><title type="html">What Happens When You Type www.google.com in Your Browser?</title><link href="http://localhost:4000/networking/what-happens-when-you-type-google/" rel="alternate" type="text/html" title="What Happens When You Type www.google.com in Your Browser?" /><published>2024-09-01T09:00:00+05:30</published><updated>2024-09-01T09:00:00+05:30</updated><id>http://localhost:4000/networking/what-happens-when-you-type-google</id><content type="html" xml:base="http://localhost:4000/networking/what-happens-when-you-type-google/">&lt;h2 id=&quot;-introduction&quot;&gt;🧠 Introduction&lt;/h2&gt;
+
+&lt;p&gt;It’s a question every computer science student or aspiring engineer should be able to answer:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What &lt;em&gt;actually&lt;/em&gt; happens when you type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;www.google.com&lt;/code&gt; into your browser and press &lt;strong&gt;Enter&lt;/strong&gt;?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This blog breaks down the entire process — from keystroke to Google’s response — into understandable steps across networking, operating systems, and browser architecture.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-step-by-step-breakdown&quot;&gt;🧩 Step-by-Step Breakdown&lt;/h2&gt;
+
+&lt;h3 id=&quot;1--url-interpretation&quot;&gt;1. 🧾 URL Interpretation&lt;/h3&gt;
+
+&lt;p&gt;The browser parses the URL:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Scheme: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Host: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;www.google.com&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Path: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/&lt;/code&gt; (default)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It sees it needs a secure connection over HTTPS and prepares for a network request.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;2--dns-resolution&quot;&gt;2. 🔍 DNS Resolution&lt;/h3&gt;
+
+&lt;p&gt;To connect, the browser needs an &lt;strong&gt;IP address&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Checks local &lt;strong&gt;DNS cache&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;If not found, it asks the &lt;strong&gt;OS resolver&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;OS checks:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/hosts&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Local DNS cache&lt;/li&gt;
+      &lt;li&gt;Configured DNS server (e.g. 8.8.8.8)&lt;/li&gt;
+    &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;deploying-using-windows-iis-server&quot;&gt;&lt;strong&gt;Deploying using Windows IIS Server:&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;➡️ Eventually resolves &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;www.google.com&lt;/code&gt; to something like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;142.250.193.68&lt;/code&gt;&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;I have used this &lt;a href=&quot;https://medium.com/@dpralay07/deploy-a-python-flask-application-in-iis-server-and-run-on-machine-ip-address-ddb81df8edf3&quot;&gt;&lt;span style=&quot;color: blue;&quot;&gt;link&lt;/span&gt;&lt;/a&gt; to install until step IV (As given in the article) with some changes.
-&lt;strong&gt;CGI&lt;/strong&gt; module will be found in 
-&lt;em&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Server Roles &amp;gt; Web Server(IIS) &amp;gt; Web Server &amp;gt; Application Development &amp;gt; CGI&lt;/code&gt;&lt;/em&gt; &lt;br /&gt;
-(If it is not found at the exact location as given in the above article)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;After completing all steps – if you get &lt;em&gt;internal server&lt;/em&gt; error when you access the website url - you can refer these steps: reference &lt;a href=&quot;https://stackoverflow.com/questions/6176093/http-error-500-0-internal-server-error-an-unknown-fastcgi-error-occured&quot;&gt;&lt;span style=&quot;color: blue;&quot;&gt; Error an unknown FastCGI error occurred&lt;/span&gt;&lt;/a&gt; &lt;br /&gt;
-&lt;img src=&quot;/images/help.png&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;To deploy it on port eg say :4000:&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;3--tcp-handshake-with-tls&quot;&gt;3. 📶 TCP Handshake (with TLS)&lt;/h3&gt;
+
+&lt;p&gt;Now the browser opens a connection to that IP on port 443 (HTTPS):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Initiates a &lt;strong&gt;3-way TCP handshake&lt;/strong&gt;:
     &lt;ul&gt;
-      &lt;li&gt;Go to IIS Manager&lt;/li&gt;
-      &lt;li&gt;In sites dropdown select the TLS checker website&lt;/li&gt;
-      &lt;li&gt;Select &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;edit site &amp;gt; Bindings&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;Select &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https &amp;gt; edit &amp;gt;&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;Enter port 4000&lt;/li&gt;
-      &lt;li&gt;Add hostname&lt;/li&gt;
-      &lt;li&gt;You may have to open the port 4000 in inbound firewall rules&lt;/li&gt;
+      &lt;li&gt;SYN →&lt;/li&gt;
+      &lt;li&gt;SYN-ACK ←&lt;/li&gt;
+      &lt;li&gt;ACK →&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;Immediately followed by a &lt;strong&gt;TLS handshake&lt;/strong&gt; for encryption:
+    &lt;ul&gt;
+      &lt;li&gt;ClientHello, ServerHello&lt;/li&gt;
+      &lt;li&gt;Key exchange&lt;/li&gt;
+      &lt;li&gt;Certificate verification&lt;/li&gt;
+      &lt;li&gt;Encrypted channel established&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;4--sending-the-http-request&quot;&gt;4. 🌐 Sending the HTTP Request&lt;/h3&gt;
+
+&lt;p&gt;The browser sends:
+GET / HTTP/1.1 Host: www.google.com User-Agent: Chrome/… Accept: /&lt;/p&gt;
+
+&lt;p&gt;yaml
+Copy
+Edit&lt;/p&gt;
+
+&lt;p&gt;Over an encrypted TLS connection.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;5-️-server-processes-the-request&quot;&gt;5. 🖥️ Server Processes the Request&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Google’s load balancer receives the request&lt;/li&gt;
+  &lt;li&gt;Routes it to a healthy web server&lt;/li&gt;
+  &lt;li&gt;The server reads the path, headers, and prepares a response&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;6--http-response-is-sent&quot;&gt;6. 📩 HTTP Response is Sent&lt;/h3&gt;
+
+&lt;p&gt;The server replies with:
+HTTP/1.1 200 OK Content-Type: text/html Content-Length: 6000&lt;/p&gt;
+
+&lt;p&gt;yaml
+Copy
+Edit&lt;/p&gt;
+
+&lt;p&gt;Followed by the actual &lt;strong&gt;HTML document&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;7--browser-renders-the-page&quot;&gt;7. 🧱 Browser Renders the Page&lt;/h3&gt;
+
+&lt;p&gt;The browser:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Parses the HTML&lt;/li&gt;
+  &lt;li&gt;Downloads CSS, JS, images (multiple requests)&lt;/li&gt;
+  &lt;li&gt;Constructs &lt;strong&gt;DOM + CSSOM → Render Tree&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Renders the page pixel-by-pixel&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-optimization-tricks&quot;&gt;🔁 Optimization Tricks&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Caching&lt;/strong&gt;: DNS, HTTP, and assets (to avoid redundant requests)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Persistent TCP connections&lt;/strong&gt; (via keep-alive)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;CDNs&lt;/strong&gt; serve content faster from nearby locations&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Service Workers&lt;/strong&gt; can cache assets offline&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-final-thoughts&quot;&gt;💡 Final Thoughts&lt;/h2&gt;
+
+&lt;p&gt;This seemingly simple action involves:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Browser engine logic&lt;/li&gt;
+  &lt;li&gt;OS-level resolution&lt;/li&gt;
+  &lt;li&gt;Network stack (TCP/IP, TLS)&lt;/li&gt;
+  &lt;li&gt;Server-side processing&lt;/li&gt;
+  &lt;li&gt;DOM rendering&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Understanding this process is essential for full-stack, backend, and DevOps engineers.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;🧪 Bonus Tip: Try running &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dig www.google.com&lt;/code&gt; or using browser DevTools to see DNS, network timing, and rendering in action!&lt;/p&gt;
+
+&lt;p&gt;Want a deep dive into TCP or TLS next? Drop me a topic!&lt;/p&gt;
+
+&lt;hr /&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="networking" /><category term="browser" /><category term="dns" /><category term="tcp" /><category term="http" /><category term="networking" /><category term="interview" /><summary type="html">🧠 Introduction</summary></entry><entry><title type="html">EduBuddy: A Full-Stack Smart Learning Platform</title><link href="http://localhost:4000/full-stack/edtech/edubuddy-fullstack-platform/" rel="alternate" type="text/html" title="EduBuddy: A Full-Stack Smart Learning Platform" /><published>2024-06-01T10:00:00+05:30</published><updated>2024-06-01T10:00:00+05:30</updated><id>http://localhost:4000/full-stack/edtech/edubuddy-fullstack-platform</id><content type="html" xml:base="http://localhost:4000/full-stack/edtech/edubuddy-fullstack-platform/">&lt;h2 id=&quot;-project-overview&quot;&gt;🎯 Project Overview&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;EduBuddy&lt;/strong&gt; is a full-stack smart learning and assessment platform designed to personalize education, track student progress, and foster collaboration. It leverages video-based content, dynamic quizzes, and real-time forums to promote adaptive and accessible learning for all.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-why-edubuddy&quot;&gt;🚀 Why EduBuddy?&lt;/h2&gt;
+
+&lt;p&gt;Traditional educational platforms often fail to accommodate:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Diverse learning styles&lt;/li&gt;
+  &lt;li&gt;Real-time analytics&lt;/li&gt;
+  &lt;li&gt;Peer-to-peer collaboration&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;EduBuddy bridges these gaps by integrating:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;📺 Embedded YouTube videos&lt;/li&gt;
+  &lt;li&gt;🧪 Adaptive topic-wise assessments&lt;/li&gt;
+  &lt;li&gt;📊 Individual performance tracking&lt;/li&gt;
+  &lt;li&gt;💬 Interactive forums&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-tech-stack&quot;&gt;🔧 Tech Stack&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Layer&lt;/th&gt;
+      &lt;th&gt;Tech Used&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Frontend&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;React.js&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Backend&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Express.js, Node.js&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Database&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;MongoDB&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;APIs&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;YouTube API&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Real-Time&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;WebSocket.io&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;Deployment&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Vercel&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-key-features&quot;&gt;⭐ Key Features&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;🎥 &lt;strong&gt;YouTube-Driven Learning&lt;/strong&gt; — Watch, pause, and resume lessons seamlessly&lt;/li&gt;
+  &lt;li&gt;🧠 &lt;strong&gt;Conceptual Assessments&lt;/strong&gt; — Evaluate understanding topic-wise&lt;/li&gt;
+  &lt;li&gt;📈 &lt;strong&gt;Performance Dashboards&lt;/strong&gt; — Real-time feedback with visual insights&lt;/li&gt;
+  &lt;li&gt;💬 &lt;strong&gt;Discussion Forums&lt;/strong&gt; — Students and mentors can ask, answer, and collaborate&lt;/li&gt;
+  &lt;li&gt;👥 &lt;strong&gt;Peer-Created Spaces&lt;/strong&gt; — Create custom discussion threads and topic clusters&lt;/li&gt;
+  &lt;li&gt;🚀 &lt;strong&gt;Deployed on Vercel&lt;/strong&gt; — Easy access with zero downtime&lt;/li&gt;
+  &lt;li&gt;📱 &lt;strong&gt;Responsive Design&lt;/strong&gt; — Learn on mobile, tablet, or desktop&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-how-it-works&quot;&gt;🔍 How It Works&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Student logs in&lt;/strong&gt; and watches embedded videos through YouTube&lt;/li&gt;
+  &lt;li&gt;After each topic, they take assessments&lt;/li&gt;
+  &lt;li&gt;Their progress is tracked and displayed&lt;/li&gt;
+  &lt;li&gt;If stuck, they can use forums to seek help&lt;/li&gt;
+  &lt;li&gt;Results and feedback are instantly visualized&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;hr /&gt;
+
+&lt;h2 id=&quot;-benefits&quot;&gt;💡 Benefits&lt;/h2&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Deploying using WAMP Server :&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;📚 Personalized and self-paced learning&lt;/li&gt;
+  &lt;li&gt;🌎 Remote access and time flexibility&lt;/li&gt;
+  &lt;li&gt;🤝 Strong student-instructor collaboration&lt;/li&gt;
+  &lt;li&gt;🔍 Insights into learning gaps&lt;/li&gt;
+  &lt;li&gt;👨‍🎓 Encourages ownership in student learning&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;This article is very apt but I might go into more details about this installation in coming weeks.
-&lt;a href=&quot;https://thilinamad.medium.com/flask-app-deployment-in-windows-apache-server-mod-wsgi-82e1cfeeb2ed&quot;&gt;https://thilinamad.medium.com/flask-app-deployment-in-windows-apache-server-mod-wsgi-82e1cfeeb2ed&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;hr /&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Thank - You for reading !&lt;/p&gt;
-  &lt;blockquote&gt;
+&lt;h2 id=&quot;-future-enhancements&quot;&gt;📈 Future Enhancements&lt;/h2&gt;
 
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="tech-views" /><category term="installation" /><category term="flask" /><summary type="html">Recently I programmed a TLS/SSL checker web app - which checks which tls protocol a website is using and also gives a list of SSL vulnerablities the website is prone to. I programmed this script in python using flask framework and now I wanted to deploy it to the server. But little did I know that deploying or setting up a python server with flask can be tricky especially on a apache server. So, these are my learnings and some useful links - you can read them so that you can finish deploying a python server on Windows apache faster than me ! :) Prerequisites: Python - can be downloaded from https://www.python.org/downloads/ Flask - can be installed by typing the following command in cmd $ pip install flask WfastCGI module - installed by typing the following command in cmd $ pip install wfastcgi Deploying using Windows IIS Server: I have used this link to install until step IV (As given in the article) with some changes. CGI module will be found in Server Roles &amp;gt; Web Server(IIS) &amp;gt; Web Server &amp;gt; Application Development &amp;gt; CGI (If it is not found at the exact location as given in the above article) After completing all steps – if you get internal server error when you access the website url - you can refer these steps: reference Error an unknown FastCGI error occurred To deploy it on port eg say :4000: Go to IIS Manager In sites dropdown select the TLS checker website Select edit site &amp;gt; Bindings Select https &amp;gt; edit &amp;gt; Enter port 4000 Add hostname You may have to open the port 4000 in inbound firewall rules Deploying using WAMP Server : This article is very apt but I might go into more details about this installation in coming weeks. https://thilinamad.medium.com/flask-app-deployment-in-windows-apache-server-mod-wsgi-82e1cfeeb2ed Thank - You for reading !</summary></entry><entry><title type="html">Debugging 101 - Love Your Bugs</title><link href="http://localhost:4000/tech-views/debugging_guide/" rel="alternate" type="text/html" title="Debugging 101 - Love Your Bugs" /><published>2023-06-10T09:30:45+05:30</published><updated>2023-06-10T09:30:45+05:30</updated><id>http://localhost:4000/tech-views/debugging_guide</id><content type="html" xml:base="http://localhost:4000/tech-views/debugging_guide/">&lt;p&gt;Errors and bugs are a necessary evil in any software developement field, and learning the art of debugging is a very vital step if you want to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;🎮 Gamified learning paths&lt;/li&gt;
+  &lt;li&gt;📱 Native Android/iOS app&lt;/li&gt;
+  &lt;li&gt;📚 LMS integrations (like Moodle, Canvas)&lt;/li&gt;
+  &lt;li&gt;🤖 AI-based progress prediction&lt;/li&gt;
+  &lt;li&gt;📡 Adaptive content recommendations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-final-thoughts&quot;&gt;📌 Final Thoughts&lt;/h2&gt;
+
+&lt;p&gt;EduBuddy demonstrates the power of full-stack web development when paired with purpose-driven goals. It’s more than a project — it’s a vision for modern education. By combining scalable tech with learner-centric design, EduBuddy helps bring smart education to everyone.&lt;/p&gt;
+
+&lt;p&gt;Interested in trying out or collaborating on EduBuddy?&lt;br /&gt;
+Feel free to connect with me on &lt;a href=&quot;https://www.linkedin.com/in/yashbhoomkar&quot;&gt;LinkedIn&lt;/a&gt; or &lt;a href=&quot;https://github.com/yashbhoomkar&quot;&gt;GitHub&lt;/a&gt;!&lt;/p&gt;
+
+&lt;hr /&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="full-stack" /><category term="edtech" /><category term="react" /><category term="express" /><category term="mongodb" /><category term="fullstack" /><category term="vercel" /><category term="education" /><summary type="html">🎯 Project Overview</summary></entry><entry><title type="html">Debugging 101 - Love Your Bugs</title><link href="http://localhost:4000/tech-views/debugging_guide/" rel="alternate" type="text/html" title="Debugging 101 - Love Your Bugs" /><published>2023-06-10T09:30:45+05:30</published><updated>2023-06-10T09:30:45+05:30</updated><id>http://localhost:4000/tech-views/debugging_guide</id><content type="html" xml:base="http://localhost:4000/tech-views/debugging_guide/">&lt;p&gt;Errors and bugs are a necessary evil in any software developement field, and learning the art of debugging is a very vital step if you want to:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Improve your developer productivity&lt;/li&gt;

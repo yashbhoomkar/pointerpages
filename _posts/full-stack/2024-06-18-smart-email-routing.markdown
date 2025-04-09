@@ -1,15 +1,15 @@
 ---
 layout: single
-title: "Smart Email Routing: Automating Inbox Management with Gmail API and LLaMA"
-date: 2024-06-18 10:15:30 +0530
+title: "Smart Email Routing"
+date: 2025-01-18 09:30:45 +0530
 categories:
-  - automation
+  - full-stack
 tags:
-  - gmail api
-  - llama
-  - ai
-  - email management
-  - python
+  - node js
+  - security headers
+  - web app
+  - helmet
+  - production
 toc: true
 classes: wide
 ---
