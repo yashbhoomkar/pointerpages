@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-09T16:50:02+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Pointer Pages</title><subtitle>A blog where I share intriguing tech projects, ideas, and experiments — from software to hardware.</subtitle><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><entry><title type="html">Smart Expense Manager &amp;amp; Auto-Budgeting with Telegram + Gemini AI</title><link href="http://localhost:4000/full-stack/smart-expense-manager/" rel="alternate" type="text/html" title="Smart Expense Manager &amp;amp; Auto-Budgeting with Telegram + Gemini AI" /><published>2025-04-05T11:00:00+05:30</published><updated>2025-04-05T11:00:00+05:30</updated><id>http://localhost:4000/full-stack/smart-expense-manager</id><content type="html" xml:base="http://localhost:4000/full-stack/smart-expense-manager/">&lt;h2 id=&quot;-introduction&quot;&gt;💡 Introduction&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/yashbhoomkar/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/yashbhoomkar/" rel="alternate" type="text/html" /><updated>2025-04-15T13:13:40+05:30</updated><id>http://localhost:4000/yashbhoomkar/feed.xml</id><title type="html">Pointer Pages</title><subtitle>A blog where I share intriguing tech projects, ideas, and experiments — from software to hardware.</subtitle><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><entry><title type="html">Smart Expense Manager &amp;amp; Auto-Budgeting with Telegram + Gemini AI</title><link href="http://localhost:4000/yashbhoomkar/full-stack/smart-expense-manager/" rel="alternate" type="text/html" title="Smart Expense Manager &amp;amp; Auto-Budgeting with Telegram + Gemini AI" /><published>2025-04-05T11:00:00+05:30</published><updated>2025-04-05T11:00:00+05:30</updated><id>http://localhost:4000/yashbhoomkar/full-stack/smart-expense-manager</id><content type="html" xml:base="http://localhost:4000/yashbhoomkar/full-stack/smart-expense-manager/">&lt;h2 id=&quot;-introduction&quot;&gt;💡 Introduction&lt;/h2&gt;
 
 &lt;p&gt;Managing expenses shouldn’t feel like managing a spreadsheet. That’s what drove the idea behind &lt;strong&gt;Smart Expense Manager&lt;/strong&gt; — a conversational, intelligent solution for personal and group expense tracking, built using &lt;strong&gt;Telegram&lt;/strong&gt;, &lt;strong&gt;Razorpay&lt;/strong&gt;, &lt;strong&gt;Gemini AI&lt;/strong&gt;, and &lt;strong&gt;MongoDB&lt;/strong&gt;.&lt;/p&gt;
 
@@ -151,7 +151,7 @@ This project helped me explore:&lt;/p&gt;
 
 &lt;p&gt;AI-in-the-loop systems&lt;/p&gt;
 
-&lt;p&gt;It’s the perfect example of how GenAI + full-stack dev can create delightful user experiences — that are actually useful.&lt;/p&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="full-stack" /><category term="telegram bot" /><category term="gemini" /><category term="razorpay" /><category term="mongodb" /><category term="ai" /><category term="expense tracker" /><category term="budgeting" /><summary type="html">💡 Introduction</summary></entry><entry><title type="html">Process Scheduling Algorithms in Operating Systems</title><link href="http://localhost:4000/operating%20systems/process-scheduling-algorithms/" rel="alternate" type="text/html" title="Process Scheduling Algorithms in Operating Systems" /><published>2025-02-15T09:00:00+05:30</published><updated>2025-02-15T09:00:00+05:30</updated><id>http://localhost:4000/operating%20systems/process-scheduling-algorithms</id><content type="html" xml:base="http://localhost:4000/operating%20systems/process-scheduling-algorithms/">&lt;h2 id=&quot;-introduction&quot;&gt;🧠 Introduction&lt;/h2&gt;
+&lt;p&gt;It’s the perfect example of how GenAI + full-stack dev can create delightful user experiences — that are actually useful.&lt;/p&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="full-stack" /><category term="telegram bot" /><category term="gemini" /><category term="razorpay" /><category term="mongodb" /><category term="ai" /><category term="expense tracker" /><category term="budgeting" /><summary type="html">💡 Introduction</summary></entry><entry><title type="html">Process Scheduling Algorithms in Operating Systems</title><link href="http://localhost:4000/yashbhoomkar/operating%20systems/process-scheduling-algorithms/" rel="alternate" type="text/html" title="Process Scheduling Algorithms in Operating Systems" /><published>2025-02-15T09:00:00+05:30</published><updated>2025-02-15T09:00:00+05:30</updated><id>http://localhost:4000/yashbhoomkar/operating%20systems/process-scheduling-algorithms</id><content type="html" xml:base="http://localhost:4000/yashbhoomkar/operating%20systems/process-scheduling-algorithms/">&lt;h2 id=&quot;-introduction&quot;&gt;🧠 Introduction&lt;/h2&gt;
 
 &lt;p&gt;In a multitasking operating system, &lt;strong&gt;process scheduling&lt;/strong&gt; is the key to managing how the CPU is shared among multiple processes.&lt;/p&gt;
 
@@ -385,7 +385,121 @@ Edit&lt;/p&gt;
 
 &lt;p&gt;Each algorithm is designed for specific use cases — there’s no one-size-fits-all. It’s all about choosing the right tool for the job!&lt;/p&gt;
 
-&lt;p&gt;Want a post covering &lt;strong&gt;Deadlocks&lt;/strong&gt;, &lt;strong&gt;Memory Management&lt;/strong&gt;, or &lt;strong&gt;Page Replacement Algorithms&lt;/strong&gt; next? Let me know 💡&lt;/p&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="operating systems" /><category term="os" /><category term="scheduling" /><category term="round robin" /><category term="fifo" /><category term="sjf" /><category term="priority" /><category term="cpu" /><category term="interview" /><summary type="html">🧠 Introduction</summary></entry><entry><title type="html">Smart Email Routing</title><link href="http://localhost:4000/full-stack/smart-email-routing/" rel="alternate" type="text/html" title="Smart Email Routing" /><published>2025-01-18T09:30:45+05:30</published><updated>2025-01-18T09:30:45+05:30</updated><id>http://localhost:4000/full-stack/smart-email-routing</id><content type="html" xml:base="http://localhost:4000/full-stack/smart-email-routing/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Want a post covering &lt;strong&gt;Deadlocks&lt;/strong&gt;, &lt;strong&gt;Memory Management&lt;/strong&gt;, or &lt;strong&gt;Page Replacement Algorithms&lt;/strong&gt; next? Let me know 💡&lt;/p&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="operating systems" /><category term="os" /><category term="scheduling" /><category term="round robin" /><category term="fifo" /><category term="sjf" /><category term="priority" /><category term="cpu" /><category term="interview" /><summary type="html">🧠 Introduction</summary></entry><entry><title type="html">My Capgemini Internship Experience</title><link href="http://localhost:4000/yashbhoomkar/full-stack/capgemini-internship-experience/" rel="alternate" type="text/html" title="My Capgemini Internship Experience" /><published>2025-02-13T09:30:00+05:30</published><updated>2025-02-13T09:30:00+05:30</updated><id>http://localhost:4000/yashbhoomkar/full-stack/capgemini-internship-experience</id><content type="html" xml:base="http://localhost:4000/yashbhoomkar/full-stack/capgemini-internship-experience/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;From October 2024 to February 2025, I had the opportunity to intern with &lt;strong&gt;Capgemini’s GenAI team&lt;/strong&gt; in Pune. Over the course of 4 months, I worked on building a &lt;strong&gt;unit test case curator for C and C++ codebases&lt;/strong&gt; that leveraged &lt;strong&gt;Clang AST, Language Servers (LSP), and Generative AI&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The goal of the project was to boost developer productivity by creating a tool that could automatically generate meaningful unit test cases for any C/C++ function by analyzing the source code and passing relevant context to Capgemini’s GenAI engine.&lt;/p&gt;
+
+&lt;p&gt;Here’s a chronological log of the milestones achieved during my internship.&lt;/p&gt;
+
+&lt;h2 id=&quot;-timeline-of-work&quot;&gt;📅 Timeline of Work&lt;/h2&gt;
+
+&lt;h3 id=&quot;-14--10--24--onboarding-and-device-collection&quot;&gt;✅ 14 / 10 / 24 — Onboarding and Device Collection&lt;/h3&gt;
+&lt;p&gt;On my first day, I completed all formalities related to onboarding. I was issued my work laptop and introduced to internal systems and tools at Capgemini.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-20--10--24--orientation-and-hr-activities&quot;&gt;✅ 20 / 10 / 24 — Orientation and HR Activities&lt;/h3&gt;
+&lt;p&gt;This day was dedicated to HR inductions, compliance training, and learning about Capgemini’s core values and culture. It was great to meet fellow interns and understand the scope of various verticals.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-24--10--24--manager-assignment-process&quot;&gt;✅ 24 / 10 / 24 — Manager Assignment Process&lt;/h3&gt;
+&lt;p&gt;I was officially assigned to the &lt;strong&gt;GenAI team&lt;/strong&gt;. I received the name of my reporting manager and was added to internal channels and sprint boards.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-01--11--24--project-knowledge-transfer-kt&quot;&gt;✅ 01 / 11 / 24 — Project Knowledge Transfer (KT)&lt;/h3&gt;
+&lt;p&gt;A colleague walked me through an existing prototype and explained Capgemini’s internal GenAI socket. We discussed expectations and the current state of the tooling.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-05--11--24--research-regex-based-parsing&quot;&gt;✅ 05 / 11 / 24 — Research: Regex-based Parsing&lt;/h3&gt;
+&lt;p&gt;I initially explored using regular expressions to parse code and extract function details. This turned out to be fragile and error-prone for nested or complex C/C++ structures.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-11--11--24--research-genai-based-context-extraction&quot;&gt;✅ 11 / 11 / 24 — Research: GenAI-Based Context Extraction&lt;/h3&gt;
+&lt;p&gt;Shifted focus toward using &lt;strong&gt;GenAI to understand code context&lt;/strong&gt; instead of regexes. I started exploring how semantic understanding could make the tool more intelligent.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-15--11--24--manager-sync-my-approach-using-ast&quot;&gt;✅ 15 / 11 / 24 — Manager Sync: My Approach Using AST&lt;/h3&gt;
+&lt;p&gt;I pitched my idea of using &lt;strong&gt;Abstract Syntax Trees (AST)&lt;/strong&gt; via &lt;strong&gt;Clang tooling&lt;/strong&gt; to parse C/C++ functions and extract precise context. The manager gave green light to proceed.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-21--11--24--team-meeting-tech-architecture&quot;&gt;✅ 21 / 11 / 24 — Team Meeting: Tech Architecture&lt;/h3&gt;
+&lt;p&gt;Presented a detailed technical architecture to the broader GenAI team, discussing how we’d gather function metadata, handle includes, dependencies, and socket communication.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-28--11--24--presentation-my-approach-walkthrough&quot;&gt;✅ 28 / 11 / 24 — Presentation: My Approach Walkthrough&lt;/h3&gt;
+&lt;p&gt;I gave a structured walkthrough of my AST-based context extractor, demonstrating early results and how we’d connect it with the GenAI engine for test case generation.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-01--12--24--research-clang-ast&quot;&gt;✅ 01 / 12 / 24 — Research: Clang AST&lt;/h3&gt;
+&lt;p&gt;Deep-dived into Clang’s AST APIs, experimented with traversal techniques to extract function arguments, local variables, return types, and dependencies.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-10--12--24--mvp-presentation&quot;&gt;✅ 10 / 12 / 24 — MVP Presentation&lt;/h3&gt;
+&lt;p&gt;Presented the MVP of the &lt;strong&gt;Unit Test Curator Tool&lt;/strong&gt; to my manager. It could now extract clean context blocks for individual functions and output them as structured data.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-15--12--24--genai-socket-update&quot;&gt;✅ 15 / 12 / 24 — GenAI Socket Update&lt;/h3&gt;
+&lt;p&gt;Collaborated with the core team to modify the socket protocol to better support test case suggestions and handle varied output lengths from the GenAI engine.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-01--01--25--mvp-integration-with-code-tester&quot;&gt;✅ 01 / 01 / 25 — MVP Integration with Code Tester&lt;/h3&gt;
+&lt;p&gt;We integrated the context-extraction module with Capgemini’s internal code-testing framework. Test cases were now being generated in real-time via the GenAI socket.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-15--01--25--final-tool-integration-with-genai-socket&quot;&gt;✅ 15 / 01 / 25 — Final Tool Integration with GenAI Socket&lt;/h3&gt;
+&lt;p&gt;The full pipeline was in place: from AST context extraction → passing to GenAI → receiving test cases → injecting into testing scaffolds. The tool was ready for team-wide use.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-01--02--25--final-testing--debugging&quot;&gt;✅ 01 / 02 / 25 — Final Testing &amp;amp; Debugging&lt;/h3&gt;
+&lt;p&gt;Conducted thorough debugging and ran validations on 100+ C/C++ functions. Edge cases, macros, and template handling were tested and optimized.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-10--02--25--final-demo-to-senior-director&quot;&gt;✅ 10 / 02 / 25 — Final Demo to Senior Director&lt;/h3&gt;
+&lt;p&gt;I showcased the tool in a final demo session to Capgemini’s Senior Director. Received great feedback on the real-world productivity boost the tool offered to developers.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-13--02--25--last-day-and-device-handover&quot;&gt;✅ 13 / 02 / 25 — Last Day and Device Handover&lt;/h3&gt;
+&lt;p&gt;Wrapped up all documentation, submitted my project report, and returned the device. A wonderful learning journey came to an end. ✨&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-tech-stack--tools-used&quot;&gt;🧠 Tech Stack &amp;amp; Tools Used&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Languages&lt;/strong&gt;: Python, C++&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Compiler Tools&lt;/strong&gt;: Clang, LibTooling&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AST Parsing&lt;/strong&gt;: Clang Python Bindings&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GenAI Integration&lt;/strong&gt;: Capgemini GenAI Socket&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Code Analysis&lt;/strong&gt;: Language Server Protocol (LSP)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Internal Testing Frameworks&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h2&gt;
+
+&lt;p&gt;This internship at Capgemini was more than just a corporate stint—it was an intense learning experience. I got hands-on with real-world GenAI applications, explored compiler internals, and improved my understanding of scalable tooling for enterprise codebases.&lt;/p&gt;
+
+&lt;p&gt;The project taught me how traditional techniques like ASTs can work hand-in-hand with next-gen GenAI models to solve developer problems more intelligently.&lt;/p&gt;
+
+&lt;p&gt;I’m incredibly grateful to my manager and team for the support and the freedom to explore ideas. Looking forward to what comes next! 🚀&lt;/p&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="full-stack" /><category term="genai" /><category term="clang" /><category term="ast" /><category term="capgemini" /><category term="productivity" /><category term="python" /><category term="lsp" /><category term="unit-testing" /><summary type="html">Introduction</summary></entry><entry><title type="html">Smart Email Routing</title><link href="http://localhost:4000/yashbhoomkar/full-stack/smart-email-routing/" rel="alternate" type="text/html" title="Smart Email Routing" /><published>2025-01-18T09:30:45+05:30</published><updated>2025-01-18T09:30:45+05:30</updated><id>http://localhost:4000/yashbhoomkar/full-stack/smart-email-routing</id><content type="html" xml:base="http://localhost:4000/yashbhoomkar/full-stack/smart-email-routing/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
 &lt;p&gt;In the age of overflowing inboxes, email triaging can become a real pain—especially when you’re part of a fast-moving organization. Manually sorting and forwarding emails can waste hours every week. I decided to automate this task by building a &lt;strong&gt;Smart Email Routing System&lt;/strong&gt; using the &lt;strong&gt;Gmail API&lt;/strong&gt; and the &lt;strong&gt;LLaMA 3.2 model from Ollama&lt;/strong&gt;.&lt;/p&gt;
 
@@ -682,7 +796,7 @@ Body:
   &lt;li&gt;🔁 Add scheduling&lt;/li&gt;
   &lt;li&gt;📊 Log and visualize routing stats&lt;/li&gt;
   &lt;li&gt;📥 Maybe even reply to some emails automatically…&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="full-stack" /><category term="node js" /><category term="security headers" /><category term="web app" /><category term="helmet" /><category term="production" /><summary type="html">Introduction</summary></entry><entry><title type="html">Understanding Recursion and Stack Frames</title><link href="http://localhost:4000/dsa/recursion-and-stackframes/" rel="alternate" type="text/html" title="Understanding Recursion and Stack Frames" /><published>2024-12-20T11:00:00+05:30</published><updated>2024-12-20T11:00:00+05:30</updated><id>http://localhost:4000/dsa/recursion-and-stackframes</id><content type="html" xml:base="http://localhost:4000/dsa/recursion-and-stackframes/">&lt;h2 id=&quot;-introduction&quot;&gt;🧠 Introduction&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="full-stack" /><category term="node js" /><category term="security headers" /><category term="web app" /><category term="helmet" /><category term="production" /><summary type="html">Introduction</summary></entry><entry><title type="html">Understanding Recursion and Stack Frames</title><link href="http://localhost:4000/yashbhoomkar/dsa/recursion-and-stackframes/" rel="alternate" type="text/html" title="Understanding Recursion and Stack Frames" /><published>2024-12-20T11:00:00+05:30</published><updated>2024-12-20T11:00:00+05:30</updated><id>http://localhost:4000/yashbhoomkar/dsa/recursion-and-stackframes</id><content type="html" xml:base="http://localhost:4000/yashbhoomkar/dsa/recursion-and-stackframes/">&lt;h2 id=&quot;-introduction&quot;&gt;🧠 Introduction&lt;/h2&gt;
 
 &lt;p&gt;Recursion is one of the most powerful — yet often misunderstood — concepts in computer science. It’s elegant, expressive, and frequently used in problems involving trees, graphs, backtracking, and more.&lt;/p&gt;
 
@@ -785,7 +899,7 @@ Recursion is not magic — it’s just functions stacked on top of each other un
 
 &lt;p&gt;Understanding the call stack is the key to mastering recursion. With that mental model, recursive problems become much easier to debug and optimize.&lt;/p&gt;
 
-&lt;p&gt;Let me know if you’d like a visual animation or stack simulation in JavaScript for this topic!&lt;/p&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="dsa" /><category term="recursion" /><category term="stack" /><category term="call stack" /><category term="memory" /><category term="dsa" /><summary type="html">🧠 Introduction</summary></entry><entry><title type="html">What are WebSockets? Explained Simply</title><link href="http://localhost:4000/networking/what-are-websockets/" rel="alternate" type="text/html" title="What are WebSockets? Explained Simply" /><published>2024-12-01T09:00:00+05:30</published><updated>2024-12-01T09:00:00+05:30</updated><id>http://localhost:4000/networking/what-are-websockets</id><content type="html" xml:base="http://localhost:4000/networking/what-are-websockets/">&lt;h2 id=&quot;-introduction&quot;&gt;🧠 Introduction&lt;/h2&gt;
+&lt;p&gt;Let me know if you’d like a visual animation or stack simulation in JavaScript for this topic!&lt;/p&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="dsa" /><category term="recursion" /><category term="stack" /><category term="call stack" /><category term="memory" /><category term="dsa" /><summary type="html">🧠 Introduction</summary></entry><entry><title type="html">What are WebSockets? Explained Simply</title><link href="http://localhost:4000/yashbhoomkar/networking/what-are-websockets/" rel="alternate" type="text/html" title="What are WebSockets? Explained Simply" /><published>2024-12-01T09:00:00+05:30</published><updated>2024-12-01T09:00:00+05:30</updated><id>http://localhost:4000/yashbhoomkar/networking/what-are-websockets</id><content type="html" xml:base="http://localhost:4000/yashbhoomkar/networking/what-are-websockets/">&lt;h2 id=&quot;-introduction&quot;&gt;🧠 Introduction&lt;/h2&gt;
 
 &lt;p&gt;Have you ever used a chat app, live score update site, or real-time collaboration tool like Google Docs?&lt;/p&gt;
 
@@ -920,7 +1034,7 @@ gRPC/WebRTC	Special real-time/peer-to-peer needs
 💡 Final Thoughts
 WebSockets changed the game by enabling true real-time web applications. They’re lightweight, fast, and perfect for scenarios where latency matters.&lt;/p&gt;
 
-&lt;p&gt;If you’re building anything interactive, collaborative, or instant — it’s time to speak WebSocket.&lt;/p&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="networking" /><category term="websockets" /><category term="real-time" /><category term="tcp" /><category term="http" /><category term="socket" /><category term="interview" /><summary type="html">🧠 Introduction</summary></entry><entry><title type="html">What Happens When You Type www.google.com in Your Browser?</title><link href="http://localhost:4000/networking/what-happens-when-you-type-google/" rel="alternate" type="text/html" title="What Happens When You Type www.google.com in Your Browser?" /><published>2024-09-01T09:00:00+05:30</published><updated>2024-09-01T09:00:00+05:30</updated><id>http://localhost:4000/networking/what-happens-when-you-type-google</id><content type="html" xml:base="http://localhost:4000/networking/what-happens-when-you-type-google/">&lt;h2 id=&quot;-introduction&quot;&gt;🧠 Introduction&lt;/h2&gt;
+&lt;p&gt;If you’re building anything interactive, collaborative, or instant — it’s time to speak WebSocket.&lt;/p&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="networking" /><category term="websockets" /><category term="real-time" /><category term="tcp" /><category term="http" /><category term="socket" /><category term="interview" /><summary type="html">🧠 Introduction</summary></entry><entry><title type="html">What Happens When You Type www.google.com in Your Browser?</title><link href="http://localhost:4000/yashbhoomkar/networking/what-happens-when-you-type-google/" rel="alternate" type="text/html" title="What Happens When You Type www.google.com in Your Browser?" /><published>2024-09-01T09:00:00+05:30</published><updated>2024-09-01T09:00:00+05:30</updated><id>http://localhost:4000/yashbhoomkar/networking/what-happens-when-you-type-google</id><content type="html" xml:base="http://localhost:4000/yashbhoomkar/networking/what-happens-when-you-type-google/">&lt;h2 id=&quot;-introduction&quot;&gt;🧠 Introduction&lt;/h2&gt;
 
 &lt;p&gt;It’s a question every computer science student or aspiring engineer should be able to answer:&lt;/p&gt;
 
@@ -1069,7 +1183,7 @@ Edit&lt;/p&gt;
 
 &lt;p&gt;Want a deep dive into TCP or TLS next? Drop me a topic!&lt;/p&gt;
 
-&lt;hr /&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="networking" /><category term="browser" /><category term="dns" /><category term="tcp" /><category term="http" /><category term="networking" /><category term="interview" /><summary type="html">🧠 Introduction</summary></entry><entry><title type="html">EduBuddy: A Full-Stack Smart Learning Platform</title><link href="http://localhost:4000/full-stack/edtech/edubuddy-fullstack-platform/" rel="alternate" type="text/html" title="EduBuddy: A Full-Stack Smart Learning Platform" /><published>2024-06-01T10:00:00+05:30</published><updated>2024-06-01T10:00:00+05:30</updated><id>http://localhost:4000/full-stack/edtech/edubuddy-fullstack-platform</id><content type="html" xml:base="http://localhost:4000/full-stack/edtech/edubuddy-fullstack-platform/">&lt;h2 id=&quot;-project-overview&quot;&gt;🎯 Project Overview&lt;/h2&gt;
+&lt;hr /&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="networking" /><category term="browser" /><category term="dns" /><category term="tcp" /><category term="http" /><category term="networking" /><category term="interview" /><summary type="html">🧠 Introduction</summary></entry><entry><title type="html">EduBuddy: A Full-Stack Smart Learning Platform</title><link href="http://localhost:4000/yashbhoomkar/full-stack/edtech/edubuddy-fullstack-platform/" rel="alternate" type="text/html" title="EduBuddy: A Full-Stack Smart Learning Platform" /><published>2024-06-01T10:00:00+05:30</published><updated>2024-06-01T10:00:00+05:30</updated><id>http://localhost:4000/yashbhoomkar/full-stack/edtech/edubuddy-fullstack-platform</id><content type="html" xml:base="http://localhost:4000/yashbhoomkar/full-stack/edtech/edubuddy-fullstack-platform/">&lt;h2 id=&quot;-project-overview&quot;&gt;🎯 Project Overview&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;EduBuddy&lt;/strong&gt; is a full-stack smart learning and assessment platform designed to personalize education, track student progress, and foster collaboration. It leverages video-based content, dynamic quizzes, and real-time forums to promote adaptive and accessible learning for all.&lt;/p&gt;
 
@@ -1190,7 +1304,7 @@ Edit&lt;/p&gt;
 &lt;p&gt;Interested in trying out or collaborating on EduBuddy?&lt;br /&gt;
 Feel free to connect with me on &lt;a href=&quot;https://www.linkedin.com/in/yashbhoomkar&quot;&gt;LinkedIn&lt;/a&gt; or &lt;a href=&quot;https://github.com/yashbhoomkar&quot;&gt;GitHub&lt;/a&gt;!&lt;/p&gt;
 
-&lt;hr /&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="full-stack" /><category term="edtech" /><category term="react" /><category term="express" /><category term="mongodb" /><category term="fullstack" /><category term="vercel" /><category term="education" /><summary type="html">🎯 Project Overview</summary></entry><entry><title type="html">Debugging 101 - Love Your Bugs</title><link href="http://localhost:4000/tech-views/debugging_guide/" rel="alternate" type="text/html" title="Debugging 101 - Love Your Bugs" /><published>2023-06-10T09:30:45+05:30</published><updated>2023-06-10T09:30:45+05:30</updated><id>http://localhost:4000/tech-views/debugging_guide</id><content type="html" xml:base="http://localhost:4000/tech-views/debugging_guide/">&lt;p&gt;Errors and bugs are a necessary evil in any software developement field, and learning the art of debugging is a very vital step if you want to:&lt;/p&gt;
+&lt;hr /&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="full-stack" /><category term="edtech" /><category term="react" /><category term="express" /><category term="mongodb" /><category term="fullstack" /><category term="vercel" /><category term="education" /><summary type="html">🎯 Project Overview</summary></entry><entry><title type="html">Debugging 101 - Love Your Bugs</title><link href="http://localhost:4000/yashbhoomkar/tech-views/debugging_guide/" rel="alternate" type="text/html" title="Debugging 101 - Love Your Bugs" /><published>2023-06-10T09:30:45+05:30</published><updated>2023-06-10T09:30:45+05:30</updated><id>http://localhost:4000/yashbhoomkar/tech-views/debugging_guide</id><content type="html" xml:base="http://localhost:4000/yashbhoomkar/tech-views/debugging_guide/">&lt;p&gt;Errors and bugs are a necessary evil in any software developement field, and learning the art of debugging is a very vital step if you want to:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Improve your developer productivity&lt;/li&gt;
@@ -1199,7 +1313,7 @@ Feel free to connect with me on &lt;a href=&quot;https://www.linkedin.com/in/yas
 
 &lt;p&gt;In this article I have tried to document all the debugging methods that I learnt while working on my projects.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/bugs.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/yashbhoomkar/images/bugs.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Whenever you encounter a bug in any of your code/installation it is always helpful to remember the following things:&lt;/p&gt;
 &lt;ul&gt;
@@ -1240,7 +1354,7 @@ Feel free to connect with me on &lt;a href=&quot;https://www.linkedin.com/in/yas
 
 &lt;p&gt;A meme that highlights the importance of reading the docs:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/joke.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/yashbhoomkar/images/joke.png&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;step-4-make-complex-things-simple&quot;&gt;Step 4: Make complex things simple&lt;/h2&gt;
 
@@ -1273,7 +1387,7 @@ Feel free to connect with me on &lt;a href=&quot;https://www.linkedin.com/in/yas
 &lt;p&gt;I would like to end this article by quoting Edsger Dijkstra:&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;” Program testing can be used to show the presence of bugs, but never to show their absence! “&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="tech-views" /><category term="bugs" /><category term="debugging" /><summary type="html">Errors and bugs are a necessary evil in any software developement field, and learning the art of debugging is a very vital step if you want to: Improve your developer productivity Write reliable code In this article I have tried to document all the debugging methods that I learnt while working on my projects. Whenever you encounter a bug in any of your code/installation it is always helpful to remember the following things: The error happens for a logical reason - its never magic Be confident that you can fix it Being stuck is temporary Now that you have these 3 things in your toolkit let us proceed for some debugging steps so that you can feel your inherent superpower. :) Step 1: Read error message carefully Error messages usually contain a lot of information about what went wrong. But they sometimes can be very large and overwhelming to read. You can use these tricks to extract the necessary information from them: Start fixing the first error message in case of multiple error messages. Fixing the first one often fixes the remaining errors Search if any solution is available on the internet for the error Step 2: Brainstorm possible reasons for the error Now here I won’t be able to give exact reasons but some examples may include: Is there something wrong with the server? Am I using correct package version? Have I followed all the instructions?(In case of errors in installations) After finding possible reasons try to narrow it down to the most possible reason, also draw a diagram of the process if possible Step 3: Investigate Read the documentation (Important) Add lots of print statements Use a debugger Look at logs A meme that highlights the importance of reading the docs: Step 4: Make complex things simple Fix one problem at a time Write clean code Reduce randomness Shorten your feedback/output loop (when you need to run the code many times) Step 5: This also helps Take a break Ask a friend Explain the error/bug out loud Finding tools that make debugging easier - eg. debuggers, profilers, tracers, fuzzers, etc Step 6: After fixing the bug Celebrate - dance a little Tell somebody what you learnt - that way you won’t forget it Document your bug Debugging can be an interesting adventure. I would like to end this article by quoting Edsger Dijkstra: ” Program testing can be used to show the presence of bugs, but never to show their absence! “</summary></entry><entry><title type="html">Creating Processes</title><link href="http://localhost:4000/operating%20systems/process-creation/" rel="alternate" type="text/html" title="Creating Processes" /><published>2023-04-25T09:30:45+05:30</published><updated>2023-04-25T09:30:45+05:30</updated><id>http://localhost:4000/operating%20systems/process-creation</id><content type="html" xml:base="http://localhost:4000/operating%20systems/process-creation/">&lt;p&gt;In this article I have tried to explain the important things that happen during a process creation. I always had doubts about&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="tech-views" /><category term="bugs" /><category term="debugging" /><summary type="html">Errors and bugs are a necessary evil in any software developement field, and learning the art of debugging is a very vital step if you want to: Improve your developer productivity Write reliable code In this article I have tried to document all the debugging methods that I learnt while working on my projects. Whenever you encounter a bug in any of your code/installation it is always helpful to remember the following things: The error happens for a logical reason - its never magic Be confident that you can fix it Being stuck is temporary Now that you have these 3 things in your toolkit let us proceed for some debugging steps so that you can feel your inherent superpower. :) Step 1: Read error message carefully Error messages usually contain a lot of information about what went wrong. But they sometimes can be very large and overwhelming to read. You can use these tricks to extract the necessary information from them: Start fixing the first error message in case of multiple error messages. Fixing the first one often fixes the remaining errors Search if any solution is available on the internet for the error Step 2: Brainstorm possible reasons for the error Now here I won’t be able to give exact reasons but some examples may include: Is there something wrong with the server? Am I using correct package version? Have I followed all the instructions?(In case of errors in installations) After finding possible reasons try to narrow it down to the most possible reason, also draw a diagram of the process if possible Step 3: Investigate Read the documentation (Important) Add lots of print statements Use a debugger Look at logs A meme that highlights the importance of reading the docs: Step 4: Make complex things simple Fix one problem at a time Write clean code Reduce randomness Shorten your feedback/output loop (when you need to run the code many times) Step 5: This also helps Take a break Ask a friend Explain the error/bug out loud Finding tools that make debugging easier - eg. debuggers, profilers, tracers, fuzzers, etc Step 6: After fixing the bug Celebrate - dance a little Tell somebody what you learnt - that way you won’t forget it Document your bug Debugging can be an interesting adventure. I would like to end this article by quoting Edsger Dijkstra: ” Program testing can be used to show the presence of bugs, but never to show their absence! “</summary></entry><entry><title type="html">Creating Processes</title><link href="http://localhost:4000/yashbhoomkar/operating%20systems/process-creation/" rel="alternate" type="text/html" title="Creating Processes" /><published>2023-04-25T09:30:45+05:30</published><updated>2023-04-25T09:30:45+05:30</updated><id>http://localhost:4000/yashbhoomkar/operating%20systems/process-creation</id><content type="html" xml:base="http://localhost:4000/yashbhoomkar/operating%20systems/process-creation/">&lt;p&gt;In this article I have tried to explain the important things that happen during a process creation. I always had doubts about&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;How a process is created in OS ?&lt;/li&gt;
   &lt;li&gt;From where does it all start ?&lt;/li&gt;
@@ -1374,79 +1488,4 @@ never returns.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Remzi H. Arpaci-Dusseau_ Andrea C Arpaci-Dusseau - Operating Systems- Three Easy Pieces&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Got this awesome concept from &lt;em&gt;Julia Evans&lt;/em&gt; blog&lt;/p&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="operating systems" /><category term="os" /><category term="fork" /><category term="process creation" /><summary type="html">In this article I have tried to explain the important things that happen during a process creation. I always had doubts about How a process is created in OS ? From where does it all start ? What happens when you start a process ? What exactly is fork and exec ?</summary></entry><entry><title type="html">Secret Life of A DNS Query</title><link href="http://localhost:4000/networking/secret-life-of-a-dns-query/" rel="alternate" type="text/html" title="Secret Life of A DNS Query" /><published>2023-04-22T09:30:45+05:30</published><updated>2023-04-22T09:30:45+05:30</updated><id>http://localhost:4000/networking/secret-life-of-a-dns-query</id><content type="html" xml:base="http://localhost:4000/networking/secret-life-of-a-dns-query/">&lt;p&gt;This article describes how a DNS query gets resolved. Though a website is loaded in just one-click on our devices, a lot of work goes on at the back end to render that webpage. Let’s see how it’s done.&lt;/p&gt;
-
-&lt;p&gt;Before you read further, these are the terms you need to get acquainted with:&lt;/p&gt;
-&lt;h2 id=&quot;important-terms&quot;&gt;Important Terms:&lt;/h2&gt;
-
-&lt;h3 id=&quot;ip-address&quot;&gt;IP Address&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;An IP address is a unique address that identifies a device on the internet or a local network.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;query&quot;&gt;Query&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;A query is a message sent by the client to the server.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;cache&quot;&gt;Cache&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Computing component that transparently stores data so that future requests for that data can be served faster.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;dns---the-internets-directory-service&quot;&gt;DNS - the Internet’s Directory Service&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;The browser needs to translate “www.blogger.com” to its corresponding IP address, because hostnames can consist of variable-length alphanumeric characters, they would be difficult to process by routers. For these reasons, hosts are also identified by so-called IP addresses.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;dns-resolver&quot;&gt;DNS Resolver&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Servers designed to receive DNS queries from web browsers and other applications.&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;authoritative-name-servers&quot;&gt;Authoritative Name Servers&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Servers where the DNS records are stored. Consists of root name servers, TLD servers and authoritative servers.&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;interaction-of-dns-servers&quot;&gt;Interaction of DNS Servers:&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/images/dns_query.jpg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Consider you click on the URL www.blogger.com&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Browser first checks if IP address is present in its DNS cache, if not it calls the function present in the operating system to do DNS lookups. For E.g. on Linux that function is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;getaddrinfo&lt;/code&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The OS might also have a DNS cache, if it has, then the function first checks if IP address is present in this cache. If IP is still not found, the function sends request to a server called DNS resolver&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The resolver checks if IP address is present in its cache, if not it contacts the root name server.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The root name server checks if IP is present in its cache, if yes, it sends the corresponding IP address, if not it replies with “I don’t know this name but ask the TLD server.”&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The resolver then asks/queries the TLD server.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The TLD server checks if IP is present in its cache, if yes, it sends the corresponding IP address, if not it replies with “I don’t know this name but ask the Authoritative name server.”&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The resolver then queries the authoritative name server.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The authoritative name server has the IP Address of the requested website in its database. It responds with the corresponding IP to the resolver.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The resolver/local DNS server then sends this IP to the OS.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;This IP is communicated to the browser and it starts opening a TCP connection to the server.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;As shown above, the DNS query is iterative in nature, as recursive queries put heavy load of name resolution in upper levels of hierarchy.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;h2 id=&quot;references&quot;&gt;References:&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;James Kurose, Keith Ross, Computer Networking A Top-Down Approach, 7th Edition.&lt;/em&gt;&lt;/p&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="networking" /><category term="networks" /><category term="DNS" /><summary type="html">This article describes how a DNS query gets resolved. Though a website is loaded in just one-click on our devices, a lot of work goes on at the back end to render that webpage. Let’s see how it’s done.</summary></entry></feed>
+&lt;p&gt;Got this awesome concept from &lt;em&gt;Julia Evans&lt;/em&gt; blog&lt;/p&gt;</content><author><name>Yash Bhoomkar</name><email>bhoomkar04@gmail.com</email></author><category term="operating systems" /><category term="os" /><category term="fork" /><category term="process creation" /><summary type="html">In this article I have tried to explain the important things that happen during a process creation. I always had doubts about How a process is created in OS ? From where does it all start ? What happens when you start a process ? What exactly is fork and exec ?</summary></entry></feed>
