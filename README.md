@@ -34,7 +34,7 @@ Currently exploring Generative AI, system design, and open-source contributions.
 ## 📚 Blog Space
 
 📝 I write about Generative AI, system design, and practical engineering challenges.  
-📍 Visit: [yashbhoomkar.github.io](https://yashbhoomkar.github.io)
+📍 Visit: [yashbhoomkar.github.io](https://yashbhoomkar.github.io/yashbhoomkar/)
 
 ---
 
